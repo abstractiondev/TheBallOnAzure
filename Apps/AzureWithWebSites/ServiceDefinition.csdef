@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="AzureConfiguration" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-10.1.8">
+  <WorkerRole name="WorkerRoleAccelerator.Core" vmsize="ExtraSmall">
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString" />
+      <Setting name="WorkerRoleEntryPointContainerName" />
+      <Setting name="StorageConnectionString" />
+      <Setting name="AmazonSESAccessInfo" />
+    </ConfigurationSettings>
+    <LocalResources>
+      <LocalStorage name="ConfigFiles" cleanOnRoleRecycle="true" sizeInMB="10" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>

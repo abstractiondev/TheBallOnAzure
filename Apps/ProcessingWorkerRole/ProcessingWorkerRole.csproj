@@ -8,8 +8,8 @@
     <ProjectGuid>{27C6E2F3-6016-4E1D-81A0-01171A14870C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CaloomWorkerRole</RootNamespace>
-    <AssemblyName>CaloomWorkerRole</AssemblyName>
+    <RootNamespace>ProcessingWorkerRole</RootNamespace>
+    <AssemblyName>ProcessingWorkerRole</AssemblyName>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <RoleType>Worker</RoleType>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureConfiguration" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="AzureMultiTenantApp.Web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="AmazonSESAccessInfo" value="" />
+      <Setting name="SitesContainerName" value="sites" />
+      <Setting name="DirectoriesToExclude" value="App_Data/TEMP;TEMP" />
+      <Setting name="SyncIntervalInSeconds" value="60" />
+      <Setting name="AdminUserName" value="admin" />
+      <Setting name="AdminUserPassword" value="PassW0rd!" />
+    </ConfigurationSettings>
+    <Certificates>
+    </Certificates>
+  </Role>
+  <Role name="WorkerRoleAccelerator.Core">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="WorkerRoleEntryPointContainerName" value="worker-role-accelerator" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="AmazonSESAccessInfo" value="" />
+    </ConfigurationSettings>
+    <Certificates>
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

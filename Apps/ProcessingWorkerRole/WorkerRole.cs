@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -9,12 +7,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using AaltoGlobalImpact.OIP;
 using Microsoft.WindowsAzure;
-using Microsoft.WindowsAzure.Diagnostics;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using Microsoft.WindowsAzure.StorageClient;
 using TheBall;
 
-namespace CaloomWorkerRole
+namespace ProcessingWorkerRole
 {
     public class WorkerRole : RoleEntryPoint
     {
