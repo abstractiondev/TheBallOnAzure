@@ -1,7 +1,0 @@
-<Configuration>
-  <Daemon.SolutionSettings>
-    <SkipFilesAndFolders>
-      <Item>33F04EB2-55DE-4539-8E67-152A6057F100/d:Abstractions/f:OIPBallInstance.designer.cs/l:..?..?..?Abstractions?AbstractionContent?TheBallCore?Out?OIPBallInstance.designer.cs</Item>
-    </SkipFilesAndFolders>
-  </Daemon.SolutionSettings>
-</Configuration>
