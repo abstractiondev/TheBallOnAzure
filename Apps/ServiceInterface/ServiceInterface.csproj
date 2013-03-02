@@ -142,8 +142,10 @@
       <Name>AzureSupport</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Properties\PublishProfiles\" />
+    <None Include="Properties\PublishProfiles\theballdemo - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\theballdemo - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
