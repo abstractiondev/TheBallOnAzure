@@ -135,19 +135,15 @@
       <Link>OIPExternal.config</Link>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Properties\PublishProfiles\demooip.aaltoglobalimpact.org.pubxml" />
-    <None Include="Properties\PublishProfiles\demopublicoip.aaltoglobalimpact.org.pubxml" />
-    <None Include="Properties\PublishProfiles\demowww.aaltoglobalimpact.org.pubxml" />
-    <None Include="Properties\PublishProfiles\theball - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\theball - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\Web Role OIPSSL.pubxml" />
-    <None Include="Properties\PublishProfiles\oip.msunit.citrus.fi.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AzureSupport\AzureSupport.csproj">
       <Project>{33F04EB2-55DE-4539-8E67-152A6057F100}</Project>
       <Name>AzureSupport</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
