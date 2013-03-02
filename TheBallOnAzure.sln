@@ -12,13 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3DE89F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{89AD2678-AAC2-4108-B018-B6EC19A4A042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaloomWorkerRole", "Apps\CaloomWorkerRole\CaloomWorkerRole.csproj", "{27C6E2F3-6016-4E1D-81A0-01171A14870C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingWorkerRole", "Apps\ProcessingWorkerRole\ProcessingWorkerRole.csproj", "{27C6E2F3-6016-4E1D-81A0-01171A14870C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBallTool", "Tools\TheBallTool\TheBallTool.csproj", "{5377CB63-1979-4596-A1F4-DF9417C9B037}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSupport", "Apps\AzureSupport\AzureSupport.csproj", "{33F04EB2-55DE-4539-8E67-152A6057F100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface", "Apps\WebInterface\WebInterface.csproj", "{639EF079-5944-480A-BF5B-691B3F133507}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "Apps\ServiceInterface\ServiceInterface.csproj", "{639EF079-5944-480A-BF5B-691B3F133507}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UI", "Apps\WorkerTemplate\CaloomUI\caloomhtml\UI\", "{44F66C2E-D452-4D91-80E2-43474B757EFC}"
 	ProjectSection(WebsiteProperties) = preProject
