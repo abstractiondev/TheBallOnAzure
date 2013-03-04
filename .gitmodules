@@ -25,3 +25,6 @@
 [submodule "Abstractions/DocumentationABS"]
 	path = Abstractions/DocumentationABS
 	url = git://github.com/abstractiondev/DocumentationABS
+[submodule "Abstractions/OperationToDocumentationTRANS"]
+	path = Abstractions/OperationToDocumentationTRANS
+	url = git://github.com/abstractiondev/OperationToDocumentationTRANS
