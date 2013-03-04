@@ -10,9 +10,6 @@
 [submodule "Abstractions/OperationABS"]
 	path = Abstractions/OperationABS
 	url = git://github.com/abstractiondev/OperationABS
-[submodule "Apps/WorkerTemplate/CaloomUI"]
-	path = Apps/WorkerTemplate/CaloomUI
-	url = git://github.com/kallex/CaloomUI.git
 [submodule "Abstractions/TheBallCoreABS"]
 	path = Abstractions/TheBallCoreABS
 	url = git://github.com/abstractiondev/TheBallCoreABS
