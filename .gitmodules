@@ -34,3 +34,6 @@
 [submodule "Abstractions/StatusTrackingToDocumentationTRANS"]
 	path = Abstractions/StatusTrackingToDocumentationTRANS
 	url = git://github.com/abstractiondev/StatusTrackingToDocumentationTRANS
+[submodule "Abstractions/StatusTrackingABS"]
+	path = Abstractions/StatusTrackingABS
+	url = git://github.com/abstractiondev/StatusTrackingABS
