@@ -22,6 +22,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBallCoreABS", "Abstracti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBallCoreToOperationTRANS", "Abstractions\TheBallCoreToOperationTRANS\TheBallCoreToOperationTRANS.csproj", "{F356172A-77A6-4BB7-9EF7-0EFBEA011759}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{83F0688A-F826-441A-A950-0947EA8621E2}"
+	ProjectSection(SolutionItems) = preProject
+		Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\OIPBallInstance.xml = Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\OIPBallInstance.xml
+		Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallCore.xml = Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallCore.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outputs", "Outputs", "{A698BD5A-DB68-4940-A526-448807CEE96F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

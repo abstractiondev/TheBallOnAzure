@@ -40,36 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\Apps\WorkerTemplate\CaloomUI\caloomxml\OIPBallInstance.xml">
-      <Link>TheBallCore\OIPBallInstance.xml</Link>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="..\..\Apps\WorkerTemplate\CaloomUI\caloomxml\TheBallCore.xml">
-      <Link>TheBallCore\TheBallCore.xml</Link>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="ClassModel\In\ClassModelFromCaloomStdUI.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="ObjectRelational\In\Content_v1_0\CaloomDatabase_v1_0.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <None Include="ServiceLayer\Out\ServiceClient_CSharp_v1_0.designer.cs" />
-    <None Include="ServiceLayer\Out\ServiceContract_CSharp_v1_0.designer.cs" />
-    <None Include="ServiceLayer\Out\ServiceServer_CSharp_v1_0.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="ServiceLayer\In\Content_v1_0\CaloomServiceLayer.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="absbuilder\In\Content_v1_0\AbstractionBuilderContent_v1_0.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="TheBallCore\In\Content_v1_0\OIPBallInstance.xml" />
+    <Content Include="TheBallCore\In\Content_v1_0\TheBallCore.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ClassModel\Out\" />
     <Folder Include="Operation\In\" />
     <Folder Include="Operation\Out\" />
-    <Folder Include="TheBallCore\In\Content_v1_0\" />
     <Folder Include="TheBallCore\Out\" />
   </ItemGroup>
   <ItemGroup>
@@ -77,7 +59,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>copy "$(SolutionDir)Apps\WorkerTemplate\CaloomUI\caloomxml\*.xml" "$(SolutionDir)Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\"</PreBuildEvent>
+    <PreBuildEvent>rem copy "$(SolutionDir)insert_path_to_xml_source_here\*.xml" "$(SolutionDir)Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
