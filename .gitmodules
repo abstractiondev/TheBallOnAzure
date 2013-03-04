@@ -22,9 +22,3 @@
 [submodule "Apps/wa-accelerator-webroles"]
 	path = Apps/wa-accelerator-webroles
 	url = git://github.com/kallex/wa-accelerator-webroles.git
-[submodule "Abstractions/DocumentationABS"]
-	path = Abstractions/DocumentationABS
-	url = git://github.com/abstractiondev/DocumentationABS
-[submodule "Abstractions/OperationToDocumentationTRANS"]
-	path = Abstractions/OperationToDocumentationTRANS
-	url = git://github.com/abstractiondev/OperationToDocumentationTRANS
