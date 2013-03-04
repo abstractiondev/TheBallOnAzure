@@ -50,6 +50,8 @@
     <Content Include="TheBallCore\In\Content_v1_0\TheBallCore.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Documentation\In\" />
+    <Folder Include="Documentation\Out\" />
     <Folder Include="Operation\In\" />
     <Folder Include="Operation\Out\" />
     <Folder Include="TheBallCore\Out\" />

@@ -8,17 +8,25 @@
       <Abstraction name="OperationABS">
         <Generator name="CSharpCode_v1_0"/>
       </Abstraction>
+      <Abstraction name="DocumentationABS">
+        <Generator name="DesignDocumentation_v1_0"/>
+      </Abstraction>
     </Abstractions>
     <Transformations>
       <Transformation name="TheBallCoreToOperationTRANS"
                       sourceAbstraction="TheBallCore"
                       targetAbstraction="Operation"
                       />
+      <Transformation name="OperationToDocumentationTRANS"
+                       sourceAbstraction="Operation"
+                       targetAbstraction="Documentation"/>
     </Transformations>
     <BuildExecution>
       <TransformationItem nameRef="TheBallCoreToOperationTRANS" />
+      <TransformationItem nameRef="OperationToDocumentationTRANS" />
       <AbstractionItem nameRef="OperationABS"/>
       <AbstractionItem nameRef="TheBallCoreABS"/>
+      <AbstractionItem nameRef="DocumentationABS"/>
     </BuildExecution>
   </Builder>
 </AbstractionBuilder>

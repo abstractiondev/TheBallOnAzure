@@ -1,0 +1,1517 @@
+ 
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormalRed, li.MsoNormalRed, div.MsoNormalRed
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;
+	text-decoration:underline;
+	color:Red;
+	}
+ p.MsoNormalBlue, li.MsoNormalBlue, div.MsoNormalBlue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;
+	font-style:italic;
+	color:Blue;
+	}
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 2.0cm 70.85pt 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+		<body lang=EN link=blue vlink=purple>
+
+<div class=WordSection1>
+
+		
+		<div style='border:none;border-bottom:solid #4F81BD 1.0pt;padding:0cm 0cm 4.0pt 0cm'>
+<p class="MsoTitle">Operations (OperationAbstractionFromOIPBallInstance)</p>
+</div>
+		<h1>AssignCollaboratorRole (GroupID, GroupContainer, CollaboratorID, RoleToAssign)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Assign collaborator role
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		CollaboratorID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator ID within group
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		RoleToAssign
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Role to assign
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupRoot ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+		</p><h2>Target Definition: Collaborator ( GroupContainer, CollaboratorID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator for given ID
+		</div>
+		</p><h2>Target Definition: AccountID ( Collaborator )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of Collaborator
+		</div>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of Collaborator
+		</div>
+		</p><h2>Target Definition: EmailAddress ( GroupRoot, AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of collaborator role
+		</div>
+		</p><h2>Target Definition: TBCollaboratorRole ( GroupRoot, EmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator role in group root
+		</div>
+		</p><h2>Method Call: AssignCollaboratorRole ( TBCollaboratorRole, RoleToAssign )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Assign collaborator role
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+		</p><h1>ClearAdditionalMediaFormats (MasterRelativeLocation)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MasterRelativeLocation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Relative location of original
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Method Call: ClearImageMediaFormats ( MasterRelativeLocation )</h2>
+		<p>		<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Clear various image media formats
+		</div>
+		</p><h1>ConfirmInviteToJoinGroup (MemberEmailAddress, GroupID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Confirm member joining to collaboration group
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MemberEmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to invite to
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupRoot ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+		</p><h2>Target Definition: AccountID ( MemberEmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+		</p><h2>Method Call: ConfirmPendingInvitationToGroupRoot ( GroupRoot, MemberEmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Confirm pending invitation to membership in group root
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+		</p><h1>CreateAdditionalMediaFormats (MasterRelativeLocation)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MasterRelativeLocation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Relative location of original
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: BitmapData ( MasterRelativeLocation )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Bitmap image if existing
+		</div>
+		</p><h2>Target Definition: VideoData ( MasterRelativeLocation )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Videodata
+		</div>
+		</p><h2>Method Call: CreateImageMediaFormats ( BitmapData, MasterRelativeLocation )</h2>
+		<p>		<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Create various media formats (if bitmap is not null)
+		</div>
+		</p><h2>Method Call: CreateVideoMediaFormats ( VideoData, MasterRelativeLocation )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Create various video media formats (if object is not null)
+		</div>
+		</p><h1>CreateGroup (GroupName, AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Create group
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group name to be created
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of initiator
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupRoot ( GroupName )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Created group with given name
+		</div>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of initiator
+		</div>
+		</p><h2>Target Definition: AccountEmails ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account emails
+		</div>
+		</p><h2>Method Call: AddAsInitiatorToGroupRoot ( GroupRoot, AccountEmails )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add as initiator group root for every email address
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h2>Method Call: InitializeGroupContentAndMasters ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Initialize group content with templates, initialize subscriptions.
+		</div>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+		</p><h1>DeleteInformationObject (ObjectToDelete)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Deletes information object
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		ObjectToDelete
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TheBall.CORE.IInformationObject
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Information object to delete
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Method Call: DeleteObjectViews ( ObjectToDelete )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete all information object views from all template-based sites
+		</div>
+		</p><h2>Method Call: DeleteObject ( ObjectToDelete )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete information object
+		</div>
+		</p><h1>InviteMemberToGroup (MemberEmailAddress, GroupID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Invite member to collaboration group
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MemberEmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to invite to
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupRoot ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+		</p><h2>Target Definition: EmailValidation ( MemberEmailAddress, GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email validation item for 14 days
+		</div>
+		</p><h2>Target Definition: AccountID ( MemberEmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+		</p><h2>Method Call: AddAsPendingInvitationToGroupRoot ( GroupRoot, MemberEmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add as pending invitation to group root
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupRoot, EmailValidation )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h2>Method Call: SendEmailConfirmation ( EmailValidation, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Create and send email confirmation for joining the group
+		</div>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+		</p><h1>PerformWebAction (TargetObjectID, CommandName, Owner, InformationSources, FormSourceNames, FormSubmitContent)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Perform web action based on action name and ObjectID, given the page information sources in as well
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetObjectID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Target object id
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		CommandName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Command name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Owner
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TheBall.CORE.IContainerOwner
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Data owner
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		InformationSources
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		InformationSourceCollection
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Information sources of the page
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		FormSourceNames
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string[]
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Form source names
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		FormSubmitContent
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		NameValueCollection
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Form field collection as-posted
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Method Call: ExecuteActualOperation ( TargetObjectID, CommandName, Owner, InformationSources, FormSourceNames, FormSubmitContent )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Execute actual operation
+		</div>
+		</p><p><table border="1">
+				<tr><th><div class=MsoNormal>Output value field</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		RenderPageAfterOperation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		bool
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		If true, page should be rendered after operation
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Return Value : PerformWebActionReturnValue ( ExecuteActualOperationOutput )</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Return Value</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		RenderPageAfterOperation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		bool
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		If true, page should be rendered after operation
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>PublishGroupContentToPublicArea (GroupID, UseWorker)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID of group being published
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		UseWorker
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		bool
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Use worker as processor
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: CurrentContainerName ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's content container name
+		</div>
+		</p><h2>Target Definition: PublicContainerName ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's public container name
+		</div>
+		</p><h2>Method Call: PublishGroupContent ( CurrentContainerName, PublicContainerName, GroupID, UseWorker )</h2>
+		<p>		<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+		</p><h1>PublishGroupContentToWww (GroupID, UseWorker)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID of group being published
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		UseWorker
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		bool
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Use worker as processor
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: CurrentContainerName ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's content container name
+		</div>
+		</p><h2>Target Definition: WwwContainerName ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's www container name
+		</div>
+		</p><h2>Method Call: PublishGroupContentToWww ( CurrentContainerName, WwwContainerName, GroupID, UseWorker )</h2>
+		<p>		<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+		</p><h1>RefreshAccountGroupMemberships (GroupRoot, AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Refresh account group memberships in logins, group and account containers
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TBRGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Operation Call: UpdateAccountRoot ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root
+		</div>
+		</p><h2>Operation Call: UpdateAccountRootReferences ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root references
+		</div>
+		</p><h2>Operation Call: UpdateAccountLoginGroups ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update login group permissions
+		</div>
+		</p><h2>Operation Call: UpdateGroupContainers ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group containers
+		</div>
+		</p><h2>Operation Call: UpdateAccountContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account containers
+		</div>
+		</p><h1>RemoveMemberFromGroup (EmailAddress, AccountID, GroupID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Remove member from collaboration group
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		EmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to remove from
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupRoot ( GroupID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+		</p><h2>Target Definition: AccountID ( EmailAddress, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of member
+		</div>
+		</p><h2>Target Definition: MemberEmailAddress ( AccountRoot, GroupRoot, EmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Member email address
+		</div>
+		</p><h2>Method Call: RemoveMemberFromGroup ( MemberEmailAddress, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Remove member from group
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+		</p><h1>UnlinkEmailAddress (AccountID, AccountContainerBeforeGroupRemoval, EmailAddressID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Unlink email address from account
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountContainerBeforeGroupRemoval
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		EmailAddressID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email Address ID within AccountContainer
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRootBeforeGroupRemoval ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of Collaborator
+		</div>
+		</p><h2>Target Definition: EmailAddress ( AccountContainerBeforeGroupRemoval, EmailAddressID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address within the account container
+		</div>
+		</p><h2>Target Definition: GroupRoots ( AccountRootBeforeGroupRemoval, EmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group roots for account, having the unlinked email address
+		</div>
+		</p><h2>Method Call: RemoveGroupMemberships ( EmailAddress, GroupRoots )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Assign collaborator role
+		</div>
+		</p><h2>Target Definition: AccountRootAfterGroupRemoval ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root AFTER group removal
+		</div>
+		</p><h2>Target Definition: EmailRoot ( EmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email root
+		</div>
+		</p><h2>Method Call: RemoveEmailFromAccountRoot ( AccountRootAfterGroupRemoval, EmailAddress )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Remove email from account root
+		</div>
+		</p><h2>Method Call: DeleteEmailRoot ( EmailRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+		</p><h2>Method Call: StoreObjects ( AccountRootAfterGroupRemoval )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified accountcontainer and accountroot
+		</div>
+		</p><h2>Operation Call: UpdateAccountContainer ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container from account root
+		</div>
+		</p><h2>Operation Call: UpdateAccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root references
+		</div>
+		</p><h1>UpdateAccountContainerFromAccountRoot (AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Update account container from account root
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root 
+		</div>
+		</p><h2>Target Definition: AccountContainer ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container. Create if missing.
+		</div>
+		</p><h2>Method Call: UpdateAccountContainerLogins ( AccountRoot, AccountContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container logins
+		</div>
+		</p><h2>Method Call: UpdateAccountContainerEmails ( AccountRoot, AccountContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container emails
+		</div>
+		</p><h2>Method Call: StoreObjects ( AccountContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h1>UpdateAccountContainersGroupMembership (GroupRoot, AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Updates account container level group memberships and summaries based on the values
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TBRGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: GroupContainer ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's group container
+		</div>
+		</p><h2>Target Definition: Group ( GroupContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group item
+		</div>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+		</p><h2>Target Definition: AccountContainer ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container
+		</div>
+		</p><h2>Target Definition: GroupSummaryContainer ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group summary container of account
+		</div>
+		</p><h2>Method Call: UpdateGroupSummaryContainerMemberships ( Group, AccountRoot, GroupSummaryContainer, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group summary container memberships
+		</div>
+		</p><h2>Method Call: UpdateAccountContainerMemberships ( Group, GroupSummaryContainer, AccountRoot, AccountContainer, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container memberships
+		</div>
+		</p><h2>Method Call: StoreObjects ( AccountContainer, GroupSummaryContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h1>UpdateAccountRootGroupMembership (GroupRoot, AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Updates account root group memberships
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TBRGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+		</p><h2>Method Call: UpdateAccountRootGroupMemberships ( AccountRoot, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root group membership
+		</div>
+		</p><h2>Method Call: StoreObjects ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h1>UpdateAccountRootToReferences (AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Update account root to references
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+		</p><h2>Target Definition: AccountLogins ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account logins
+		</div>
+		</p><h2>Target Definition: AccountEmails ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account logins
+		</div>
+		</p><h2>Method Call: UpdateAccountToLogins ( AccountRoot, AccountLogins )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+		</p><h2>Method Call: UpdateAccountToEmails ( AccountRoot, AccountEmails )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+		</p><h2>Method Call: StoreObjects ( AccountLogins, AccountEmails )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h1>UpdateGroupContainersGroupMembership (GroupRoot)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Updates group container level memberships
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TBRGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRootsAndContainers ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account roots and containers for profile information
+		</div>
+		</p><h2>Target Definition: GroupContainer ( GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group container in the group
+		</div>
+		</p><h2>Method Call: UpdateGroupContainerMembership ( AccountRootsAndContainers, GroupContainer, GroupRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group container memberships
+		</div>
+		</p><h2>Method Call: StoreObjects ( GroupContainer )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+		</p><h1>UpdateLoginGroupPermissions (AccountID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Updates account login permissions per group
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+		</p><h2>Target Definition: LoginGroupRoots ( AccountRoot )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account's group login entries
+		</div>
+		</p><h2>Method Call: SynchronizeLoginGroupRoots ( AccountRoot, LoginGroupRoots )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add missing and remove nonexistent login group roots
+		</div>
+		</p><h1>UpdatePageContent (changedInformation)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		changedInformation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Test
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Method Call: UpdatePage</h2>
+		<p>		<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+		</p></div>
+
+</body>
+</html>
+		
+		
