@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
 <TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../TheBallCoreABS/TheBallCore/Content_v1_0/TheBallCore_v1_0.xsd">
--->
-<TheBallCoreAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TheBallCore_v1_0.xsd">
   <InstanceOfTheBall semanticDomainName="AaltoGlobalImpact.OIP">
     <InformationModel>
       <!-- System -->
@@ -1124,32 +1121,32 @@
           <Description>Create group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="designApproved"/>
+          <Parameter name="GroupName" dataType="string" designDesc="Group name to be created" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID of initiator" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Created group with given name" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Created group with given name" state="implemented">
               <Parameter name="GroupName"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of initiator" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of initiator" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBEmail[]" name="AccountEmails" designDesc="Account emails" state="designApproved">
+            <TargetDefinition dataType="TBEmail[]" name="AccountEmails" designDesc="Account emails" state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <MethodExecute name="AddAsInitiatorToGroupRoot" designDesc="Add as initiator group root for every email address" state="designApproved">
+            <MethodExecute name="AddAsInitiatorToGroupRoot" designDesc="Add as initiator group root for every email address" state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountEmails"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="designApproved">
+            <MethodExecute name="InitializeGroupContentAndMasters" designDesc="Initialize group content with templates, initialize subscriptions." state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Parameter name="AccountID"/>
               <Target name="GroupRoot"/>
             </OperationExecute>
@@ -1161,44 +1158,44 @@
           <Description>Invite member to collaboration group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="designApproved"/>
-          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="implemented"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="implemented"/>
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="implemented">
             <Target name="GroupID"/>
           </Validation>
-          <Validation name="ValidateEmailAddress" designDesc="Validate that email address exists" state="designApproved">
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address exists" state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>
-          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBEmailValidation" name="EmailValidation" designDesc="Email validation item for 14 days" state="designApproved">
+            <TargetDefinition dataType="TBEmailValidation" name="EmailValidation" designDesc="Email validation item for 14 days" state="implemented">
               <Parameter name="MemberEmailAddress"/>
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="designApproved">
+            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="implemented">
               <Parameter name="MemberEmailAddress"/>
             </TargetDefinition>
-            <MethodExecute name="AddAsPendingInvitationToGroupRoot" designDesc="Add as pending invitation to group root" state="designApproved">
+            <MethodExecute name="AddAsPendingInvitationToGroupRoot" designDesc="Add as pending invitation to group root" state="implemented">
               <Parameter name="MemberEmailAddress"/>
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
               <Target name="EmailValidation"/>
             </MethodExecute>
-            <MethodExecute name="SendEmailConfirmation" designDesc="Create and send email confirmation for joining the group" state="designApproved">
+            <MethodExecute name="SendEmailConfirmation" designDesc="Create and send email confirmation for joining the group" state="implemented">
               <Target name="EmailValidation"/>
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountID"/>
             </OperationExecute>
@@ -1210,46 +1207,46 @@
           <Description>Remove member from collaboration group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="EmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="AccountID of the member" state="designApproved"/>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID to remove from" state="designApproved"/>
+          <Parameter name="EmailAddress" dataType="string" designDesc="Email address of the member" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="AccountID of the member" state="implemented"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID to remove from" state="implemented"/>
           <!--
-          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="implemented">
             <Target name="GroupID"/>
           </Validation>
-          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>
-          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>-->
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="MemberAccountID" designDesc="Account ID of email" state="designApproved">
+            <TargetDefinition dataType="string" name="MemberAccountID" designDesc="Account ID of email" state="implemented">
               <Parameter name="EmailAddress"/>
               <Parameter name="AccountID" />
             </TargetDefinition>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of member" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of member" state="implemented">
               <Target name="MemberAccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="MemberEmailAddress" designDesc="Member email address" state="designApproved">
+            <TargetDefinition dataType="string" name="MemberEmailAddress" designDesc="Member email address" state="implemented">
               <Parameter name="EmailAddress"/>
               <Target name="AccountRoot"/>
               <Target name="GroupRoot"/>
             </TargetDefinition>
-            <MethodExecute name="RemoveMemberFromGroup" designDesc="Remove member from group" state="designApproved">
+            <MethodExecute name="RemoveMemberFromGroup" designDesc="Remove member from group" state="implemented">
               <Target name="MemberEmailAddress"/>
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Target name="GroupRoot"/>
               <Target name="MemberAccountID"/>
             </OperationExecute>
@@ -1261,35 +1258,35 @@
           <Description>Confirm member joining to collaboration group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="designApproved"/>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="designApproved"/>
-          <Validation name="ValidateEmailAddressAsPendingMember" designDesc="Validate invitor authorization to invite" state="designApproved">
+          <Parameter name="MemberEmailAddress" dataType="string" designDesc="Email address of the member" state="implemented"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID to invite to" state="implemented"/>
+          <Validation name="ValidateEmailAddressAsPendingMember" designDesc="Validate invitor authorization to invite" state="implemented">
             <Target name="MemberEmailAddress"/>
             <Target name="GroupID"/>
           </Validation>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="designApproved">
+            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of email" state="implemented">
               <Parameter name="MemberEmailAddress"/>
             </TargetDefinition>
-            <MethodExecute name="ConfirmPendingInvitationToGroupRoot" designDesc="Confirm pending invitation to membership in group root" state="designApproved">
+            <MethodExecute name="ConfirmPendingInvitationToGroupRoot" designDesc="Confirm pending invitation to membership in group root" state="implemented">
               <Parameter name="MemberEmailAddress"/>
               <Target name="GroupRoot"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                              state="designApproved">
+                              state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountID"/>
             </OperationExecute>
             <!-- Send confirmation email?
-            <MethodExecute name="SendEmailConfirmation" designDesc="Create and send email confirmation for joining the group" state="designApproved">
+            <MethodExecute name="SendEmailConfirmation" designDesc="Create and send email confirmation for joining the group" state="implemented">
               <Target name="EmailValidation"/>
             </MethodExecute>
             -->
@@ -1301,53 +1298,53 @@
           <Description>Assign collaborator role</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="designApproved"/>
-          <Parameter name="GroupContainer" dataType="GroupContainer" designDesc="Group container" state="designApproved"/>
-          <Parameter name="CollaboratorID" dataType="string" designDesc="Collaborator ID within group" state="designApproved"/>
-          <Parameter name="RoleToAssign" dataType="string" designDesc="Role to assign" state="designApproved"/>
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID" state="implemented"/>
+          <Parameter name="GroupContainer" dataType="GroupContainer" designDesc="Group container" state="implemented"/>
+          <Parameter name="CollaboratorID" dataType="string" designDesc="Collaborator ID within group" state="implemented"/>
+          <Parameter name="RoleToAssign" dataType="string" designDesc="Role to assign" state="implemented"/>
           <!--
-          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="implemented">
             <Target name="GroupID"/>
           </Validation>
-          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>
-          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>-->
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot" name="GroupRoot" designDesc="Group root for given ID" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="Collaborator" name="Collaborator" designDesc="Collaborator for given ID" state="designApproved">
+            <TargetDefinition dataType="Collaborator" name="Collaborator" designDesc="Collaborator for given ID" state="implemented">
               <Parameter name="GroupContainer"/>
               <Parameter name="CollaboratorID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of Collaborator" state="designApproved">
+            <TargetDefinition dataType="string" name="AccountID" designDesc="Account ID of Collaborator" state="implemented">
               <Target name="Collaborator"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of Collaborator" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root of Collaborator" state="implemented">
               <Target name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address of collaborator role" state="designApproved">
+            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address of collaborator role" state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBCollaboratorRole" name="TBCollaboratorRole" designDesc="Collaborator role in group root" state="designApproved">
+            <TargetDefinition dataType="TBCollaboratorRole" name="TBCollaboratorRole" designDesc="Collaborator role in group root" state="implemented">
               <Target name="GroupRoot"/>
               <Target name="EmailAddress"/>
             </TargetDefinition>
-            <MethodExecute name="AssignCollaboratorRole" designDesc="Assign collaborator role" state="designApproved">
+            <MethodExecute name="AssignCollaboratorRole" designDesc="Assign collaborator role" state="implemented">
               <Parameter name="RoleToAssign"/>
               <Target name="TBCollaboratorRole"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Target name="GroupRoot"/>
               <Target name="AccountID"/>
             </OperationExecute>
@@ -1359,25 +1356,25 @@
           <Description>Update account container from account root</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root " state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root " state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="AccountContainer" name="AccountContainer" designDesc="Account container. Create if missing." state="designApproved">
+            <TargetDefinition dataType="AccountContainer" name="AccountContainer" designDesc="Account container. Create if missing." state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateAccountContainerLogins" designDesc="Update account container logins" state="designApproved">
+            <MethodExecute name="UpdateAccountContainerLogins" designDesc="Update account container logins" state="implemented">
               <Target name="AccountRoot"/>
               <Target name="AccountContainer"/>
             </MethodExecute>
-            <MethodExecute name="UpdateAccountContainerEmails" designDesc="Update account container emails" state="designApproved">
+            <MethodExecute name="UpdateAccountContainerEmails" designDesc="Update account container emails" state="implemented">
               <Target name="AccountRoot"/>
               <Target name="AccountContainer"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="AccountContainer"/>
             </MethodExecute>
           </SequentialExecution>
@@ -1388,68 +1385,68 @@
           <Description>Unlink email address from account</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="designApproved"/>
-          <Parameter name="AccountContainerBeforeGroupRemoval" dataType="AccountContainer" designDesc="Account container" state="designApproved"/>
-          <Parameter name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID" state="implemented"/>
+          <Parameter name="AccountContainerBeforeGroupRemoval" dataType="AccountContainer" designDesc="Account container" state="implemented"/>
+          <Parameter name="EmailAddressID" dataType="string" designDesc="Email Address ID within AccountContainer" state="implemented"/>
           <!--
-          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="designApproved">
+          <Validation name="ValidateInvitorAuthority" designDesc="Validate invitor authorization to invite" state="implemented">
             <Target name="GroupID"/>
           </Validation>
-          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="designApproved">
+          <Validation name="ValidateEmailAddress" designDesc="Validate that email address really " state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>
-          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="designApproved">
+          <Validation name="ValidateEmailAddressNotAlreadyMember" designDesc="Validate that email address is not already a member" state="implemented">
             <Target name="MemberEmailAddress"/>
           </Validation>-->
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootBeforeGroupRemoval" designDesc="Account root of Collaborator" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootBeforeGroupRemoval" designDesc="Account root of Collaborator" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address within the account container" state="designApproved">
+            <TargetDefinition dataType="string" name="EmailAddress" designDesc="Email address within the account container" state="implemented">
               <Parameter name="AccountContainerBeforeGroupRemoval"/>
               <Parameter name="EmailAddressID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRGroupRoot[]" name="GroupRoots" designDesc="Group roots for account, having the unlinked email address" state="designApproved">
+            <TargetDefinition dataType="TBRGroupRoot[]" name="GroupRoots" designDesc="Group roots for account, having the unlinked email address" state="implemented">
               <Target name="AccountRootBeforeGroupRemoval"/>
               <Target name="EmailAddress"/>
             </TargetDefinition>
-            <MethodExecute name="RemoveGroupMemberships" designDesc="Assign collaborator role" state="designApproved">
+            <MethodExecute name="RemoveGroupMemberships" designDesc="Assign collaborator role" state="implemented">
               <Target name="EmailAddress"/>
               <Target name="GroupRoots"/>
             </MethodExecute>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootAfterGroupRemoval" designDesc="Account root AFTER group removal" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRootAfterGroupRemoval" designDesc="Account root AFTER group removal" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBREmailRoot" name="EmailRoot" designDesc="Email root" state="designApproved">
+            <TargetDefinition dataType="TBREmailRoot" name="EmailRoot" designDesc="Email root" state="implemented">
               <Target name="EmailAddress"/>
             </TargetDefinition>
-            <MethodExecute name="RemoveEmailFromAccountRoot" designDesc="Remove email from account root" state="designApproved">
+            <MethodExecute name="RemoveEmailFromAccountRoot" designDesc="Remove email from account root" state="implemented">
               <Target name="AccountRootAfterGroupRemoval"/>
               <Target name="EmailAddress"/>
             </MethodExecute>
-            <MethodExecute name="DeleteEmailRoot" designDesc="Delete email root" state="designApproved">
+            <MethodExecute name="DeleteEmailRoot" designDesc="Delete email root" state="implemented">
               <Target name="EmailRoot"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified accountcontainer and accountroot" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified accountcontainer and accountroot" state="implemented">
               <Target name="AccountRootAfterGroupRemoval"/>
             </MethodExecute>
             <OperationExecute name="UpdateAccountContainer" targetOperationName="UpdateAccountContainerFromAccountRoot" designDesc="Update account container from account root"
-                  state="designApproved">
+                  state="implemented">
               <Parameter name="AccountID"/>
             </OperationExecute>
-            <OperationExecute name="UpdateAccountRoot" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="designApproved">
+            <OperationExecute name="UpdateAccountRoot" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="implemented">
               <Parameter name="AccountID"/>
             </OperationExecute>
             <!--
-            <MethodExecute name="RemoveEmailFromAccountContainer" designDesc="Remove email address from account container" state="designApproved">
+            <MethodExecute name="RemoveEmailFromAccountContainer" designDesc="Remove email address from account container" state="implemented">
               <Parameter name="EmailAddressID"/>
               <Target name="AccountContainerAfterGroupRemoval"/>
             </MethodExecute>
             UpdateAccountContainerFromAccountRoot
             <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers"
-                  state="designApproved">
+                  state="implemented">
               <Parameter name="AccountID"/>
               <Target name="GroupRoot"/>
             </OperationExecute>
@@ -1462,28 +1459,28 @@
           <Description>Update account root to references</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRLoginRoot[]" name="AccountLogins" designDesc="Account logins" state="designApproved">
+            <TargetDefinition dataType="TBRLoginRoot[]" name="AccountLogins" designDesc="Account logins" state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBREmailRoot[]" name="AccountEmails" designDesc="Account logins" state="designApproved">
+            <TargetDefinition dataType="TBREmailRoot[]" name="AccountEmails" designDesc="Account logins" state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateAccountToLogins" designDesc="Delete email root" state="designApproved">
+            <MethodExecute name="UpdateAccountToLogins" designDesc="Delete email root" state="implemented">
               <Target name="AccountRoot"/>
               <Target name="AccountLogins"/>
             </MethodExecute>
-            <MethodExecute name="UpdateAccountToEmails" designDesc="Delete email root" state="designApproved">
+            <MethodExecute name="UpdateAccountToEmails" designDesc="Delete email root" state="implemented">
               <Target name="AccountRoot"/>
               <Target name="AccountEmails"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="AccountLogins"/>
               <Target name="AccountEmails"/>
             </MethodExecute>
@@ -1495,25 +1492,25 @@
           <Description>Refresh account group memberships in logins, group and account containers</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <OperationExecute name="UpdateAccountRoot" targetOperationName="UpdateAccountRootGroupMembership" designDesc="Update account root" state="designApproved">
+            <OperationExecute name="UpdateAccountRoot" targetOperationName="UpdateAccountRootGroupMembership" designDesc="Update account root" state="implemented">
               <Parameter name="GroupRoot"/>
               <Parameter name="AccountID"/>
             </OperationExecute>
-            <OperationExecute name="UpdateAccountRootReferences" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="designApproved">
+            <OperationExecute name="UpdateAccountRootReferences" targetOperationName="UpdateAccountRootToReferences" designDesc="Update account root references" state="implemented">
               <Parameter name="AccountID"/>
             </OperationExecute>
-            <OperationExecute name="UpdateAccountLoginGroups" targetOperationName="UpdateLoginGroupPermissions" designDesc="Update login group permissions" state="designApproved">
+            <OperationExecute name="UpdateAccountLoginGroups" targetOperationName="UpdateLoginGroupPermissions" designDesc="Update login group permissions" state="implemented">
               <Parameter name="AccountID"/>
             </OperationExecute>
-            <OperationExecute name="UpdateGroupContainers" targetOperationName="UpdateGroupContainersGroupMembership" designDesc="Update group containers" state="designApproved">
+            <OperationExecute name="UpdateGroupContainers" targetOperationName="UpdateGroupContainersGroupMembership" designDesc="Update group containers" state="implemented">
               <Parameter name="GroupRoot"/>
             </OperationExecute>
-            <OperationExecute name="UpdateAccountContainers" targetOperationName="UpdateAccountContainersGroupMembership" designDesc="Update account containers" state="designApproved">
+            <OperationExecute name="UpdateAccountContainers" targetOperationName="UpdateAccountContainersGroupMembership" designDesc="Update account containers" state="implemented">
               <Parameter name="GroupRoot"/>
               <Parameter name="AccountID"/>
             </OperationExecute>
@@ -1525,29 +1522,29 @@
           <Description>Updates group container level memberships</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="designApproved"/>
+          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
             <!-- Group summary is not really active in collaboration group
-            <TargetDefinition dataType="GroupSummaryContainer" name="GroupSummaryContainer" designDesc="Group summary container" state="designApproved">
+            <TargetDefinition dataType="GroupSummaryContainer" name="GroupSummaryContainer" designDesc="Group summary container" state="implemented">
               <Parameter name="GroupRoot"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateGroupSummaryContainerMembership" designDesc="Update group summary container memberships" state="designApproved">
+            <MethodExecute name="UpdateGroupSummaryContainerMembership" designDesc="Update group summary container memberships" state="implemented">
               <Target name="GroupRoot"/>
             </MethodExecute>-->
-            <TargetDefinition dataType="AccountRootAndContainer[]" name="AccountRootsAndContainers" designDesc="Account roots and containers for profile information" state="designApproved">
+            <TargetDefinition dataType="AccountRootAndContainer[]" name="AccountRootsAndContainers" designDesc="Account roots and containers for profile information" state="implemented">
               <Parameter name="GroupRoot"/>
             </TargetDefinition>
-            <TargetDefinition dataType="GroupContainer" name="GroupContainer" designDesc="Group container in the group" state="designApproved">
+            <TargetDefinition dataType="GroupContainer" name="GroupContainer" designDesc="Group container in the group" state="implemented">
               <Parameter name="GroupRoot"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateGroupContainerMembership" designDesc="Update group container memberships" state="designApproved">
+            <MethodExecute name="UpdateGroupContainerMembership" designDesc="Update group container memberships" state="implemented">
               <Parameter name="GroupRoot"/>
               <Target name="AccountRootsAndContainers"/>
               <Target name="GroupContainer"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="GroupContainer"/>
             </MethodExecute>
           </SequentialExecution>
@@ -1558,14 +1555,14 @@
           <Description>Deletes information object</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="ObjectToDelete" dataType="TheBall.CORE.IInformationObject" designDesc="Information object to delete" state="designApproved"/>
+          <Parameter name="ObjectToDelete" dataType="TheBall.CORE.IInformationObject" designDesc="Information object to delete" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <MethodExecute name="DeleteObjectViews" designDesc="Delete all information object views from all template-based sites" state="designApproved">
+            <MethodExecute name="DeleteObjectViews" designDesc="Delete all information object views from all template-based sites" state="implemented">
               <Parameter name="ObjectToDelete"/>
             </MethodExecute>
-            <MethodExecute name="DeleteObject" designDesc="Delete information object" state="designApproved">
+            <MethodExecute name="DeleteObject" designDesc="Delete information object" state="implemented">
               <Parameter name="ObjectToDelete"/>
             </MethodExecute>
           </SequentialExecution>
@@ -1576,17 +1573,17 @@
           <Description>Updates account login permissions per group</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRLoginGroupRoot[]" name="LoginGroupRoots" designDesc="Account's group login entries" state="designApproved">
+            <TargetDefinition dataType="TBRLoginGroupRoot[]" name="LoginGroupRoots" designDesc="Account's group login entries" state="implemented">
               <Target name="AccountRoot"/>
             </TargetDefinition>
-            <MethodExecute name="SynchronizeLoginGroupRoots" designDesc="Add missing and remove nonexistent login group roots" state="designApproved">
+            <MethodExecute name="SynchronizeLoginGroupRoots" designDesc="Add missing and remove nonexistent login group roots" state="implemented">
               <Target name="AccountRoot"/>
               <Target name="LoginGroupRoots"/>
             </MethodExecute>
@@ -1598,19 +1595,19 @@
           <Description>Updates account root group memberships</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateAccountRootGroupMemberships" designDesc="Update account root group membership" state="designApproved">
+            <MethodExecute name="UpdateAccountRootGroupMemberships" designDesc="Update account root group membership" state="implemented">
               <Parameter name="GroupRoot"/>
               <Target name="AccountRoot"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="AccountRoot"/>
             </MethodExecute>
           </SequentialExecution>
@@ -1621,40 +1618,40 @@
           <Description>Updates account container level group memberships and summaries based on the values</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="designApproved"/>
-          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="designApproved"/>
+          <Parameter name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root record" state="implemented"/>
+          <Parameter name="AccountID" dataType="string" designDesc="Account ID to update" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="GroupContainer" name="GroupContainer" designDesc="Group's group container" state="designApproved">
+            <TargetDefinition dataType="GroupContainer" name="GroupContainer" designDesc="Group's group container" state="implemented">
               <Parameter name="GroupRoot"/>
             </TargetDefinition>
-            <TargetDefinition dataType="Group" name="Group" designDesc="Group item" state="designApproved">
+            <TargetDefinition dataType="Group" name="Group" designDesc="Group item" state="implemented">
               <Target name="GroupContainer"/>
             </TargetDefinition>
-            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="designApproved">
+            <TargetDefinition dataType="TBRAccountRoot" name="AccountRoot" designDesc="Account root" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="AccountContainer" name="AccountContainer" designDesc="Account container" state="designApproved">
+            <TargetDefinition dataType="AccountContainer" name="AccountContainer" designDesc="Account container" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="GroupSummaryContainer" name="GroupSummaryContainer" designDesc="Group summary container of account" state="designApproved">
+            <TargetDefinition dataType="GroupSummaryContainer" name="GroupSummaryContainer" designDesc="Group summary container of account" state="implemented">
               <Parameter name="AccountID"/>
             </TargetDefinition>
-            <MethodExecute name="UpdateGroupSummaryContainerMemberships" designDesc="Update group summary container memberships" state="designApproved">
+            <MethodExecute name="UpdateGroupSummaryContainerMemberships" designDesc="Update group summary container memberships" state="implemented">
               <Parameter name="GroupRoot"/>
               <Target name="Group"/>
               <Target name="AccountRoot"/>
               <Target name="GroupSummaryContainer"/>
             </MethodExecute>
-            <MethodExecute name="UpdateAccountContainerMemberships" designDesc="Update account container memberships" state="designApproved">
+            <MethodExecute name="UpdateAccountContainerMemberships" designDesc="Update account container memberships" state="implemented">
               <Parameter name="GroupRoot"/>
               <Target name="Group"/>
               <Target name="GroupSummaryContainer"/>
               <Target name="AccountRoot"/>
               <Target name="AccountContainer"/>
             </MethodExecute>
-            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="designApproved">
+            <MethodExecute name="StoreObjects" designDesc="Store modified objects" state="implemented">
               <Target name="AccountContainer"/>
               <Target name="GroupSummaryContainer"/>
             </MethodExecute>
@@ -1666,28 +1663,28 @@
           <Description>Perform web action based on action name and ObjectID, given the page information sources in as well</Description>
         </OperationSpec>
         <Parameters>
-          <Parameter name="TargetObjectID" dataType="string" designDesc="Target object id" state="designApproved"/>
-          <Parameter name="CommandName" dataType="string" designDesc="Command name" state="designApproved"/>
-          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="designApproved"/>
-          <Parameter name="InformationSources" dataType="InformationSourceCollection" designDesc="Information sources of the page" state="designApproved"/>
-          <Parameter name="FormSourceNames" dataType="string[]" designDesc="Form source names" state="designApproved"/>
-          <Parameter name="FormSubmitContent" dataType="NameValueCollection" designDesc="Form field collection as-posted" state="designApproved"/>
+          <Parameter name="TargetObjectID" dataType="string" designDesc="Target object id" state="implemented"/>
+          <Parameter name="CommandName" dataType="string" designDesc="Command name" state="implemented"/>
+          <Parameter name="Owner" dataType="TheBall.CORE.IContainerOwner" designDesc="Data owner" state="implemented"/>
+          <Parameter name="InformationSources" dataType="InformationSourceCollection" designDesc="Information sources of the page" state="implemented"/>
+          <Parameter name="FormSourceNames" dataType="string[]" designDesc="Form source names" state="implemented"/>
+          <Parameter name="FormSubmitContent" dataType="NameValueCollection" designDesc="Form field collection as-posted" state="implemented"/>
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <MethodExecute name="ExecuteActualOperation" designDesc="Execute actual operation" state="designApproved">
+            <MethodExecute name="ExecuteActualOperation" designDesc="Execute actual operation" state="implemented">
               <Parameter name="TargetObjectID"/>
               <Parameter name="CommandName"/>
               <Parameter name="Owner"/>
               <Parameter name="InformationSources"/>
               <Parameter name="FormSourceNames"/>
               <Parameter name="FormSubmitContent"/>
-              <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="designApproved"/>
+              <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="implemented"/>
             </MethodExecute>
           </SequentialExecution>
         </Execution>
         <OperationReturnValues>
-          <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="designApproved"/>
+          <ReturnValue name="RenderPageAfterOperation" dataType="bool" designDesc="If true, page should be rendered after operation" state="implemented"/>
           <Target name="ExecuteActualOperationOutput"/>
         </OperationReturnValues>
       </Operation>
@@ -1696,18 +1693,18 @@
           <Description />
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="designApproved" />
-          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="designApproved" />
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="implemented" />
+          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="implemented" />
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="designApproved">
+            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="PublicContainerName" designDesc="Group's public container name" state="designApproved">
+            <TargetDefinition dataType="string" name="PublicContainerName" designDesc="Group's public container name" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <MethodExecute name="PublishGroupContent" designDesc="Do the update page" state="underDesign">
+            <MethodExecute name="PublishGroupContent" designDesc="Publish group content to public area. Also media files." state="designApproved">
               <Parameter name="GroupID"/>
               <Parameter name="UseWorker"/>
               <Target name="CurrentContainerName"/>
@@ -1721,18 +1718,18 @@
           <Description />
         </OperationSpec>
         <Parameters>
-          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="designApproved" />
-          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="designApproved" />
+          <Parameter name="GroupID" dataType="string" designDesc="Group ID of group being published" state="implemented" />
+          <Parameter name="UseWorker" dataType="bool" designDesc="Use worker as processor" state="implemented" />
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="designApproved">
+            <TargetDefinition dataType="string" name="CurrentContainerName" designDesc="Group's content container name" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <TargetDefinition dataType="string" name="WwwContainerName" designDesc="Group's www container name" state="designApproved">
+            <TargetDefinition dataType="string" name="WwwContainerName" designDesc="Group's www container name" state="implemented">
               <Parameter name="GroupID"/>
             </TargetDefinition>
-            <MethodExecute name="PublishGroupContentToWww" designDesc="Do the update page" state="underDesign">
+            <MethodExecute name="PublishGroupContentToWww" designDesc="Publish group content to www. Also media files." state="designApproved">
               <Parameter name="GroupID"/>
               <Parameter name="UseWorker"/>
               <Target name="CurrentContainerName"/>
@@ -1746,11 +1743,11 @@
           <Description />
         </OperationSpec>
         <Parameters>
-          <Parameter dataType="string" name="changedInformation" designDesc="Test" state="underDesign" />
+          <Parameter dataType="string" name="changedInformation" designDesc="Under design (not sure if needed)" state="underDesign" />
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <MethodExecute name="UpdatePage" designDesc="Do the update page" state="underDesign" />
+            <MethodExecute name="UpdatePage" designDesc="Do the update page execution" state="underDesign" />
           </SequentialExecution>
         </Execution>
       </Operation>
@@ -1759,17 +1756,17 @@
           <Description />
         </OperationSpec>
         <Parameters>
-          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="underDesign" />
+          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="implemented" />
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <TargetDefinition dataType="Bitmap" name="BitmapData" designDesc="Bitmap image if existing" state="designApproved">
+            <TargetDefinition dataType="Bitmap" name="BitmapData" designDesc="Bitmap image if existing" state="implemented">
               <Parameter name="MasterRelativeLocation"/>
             </TargetDefinition>
-            <TargetDefinition dataType="object" name="VideoData" designDesc="Videodata" state="designApproved">
+            <TargetDefinition dataType="object" name="VideoData" designDesc="Videodata" state="implemented">
               <Parameter name="MasterRelativeLocation"/>
             </TargetDefinition>
-            <MethodExecute name="CreateImageMediaFormats" designDesc="Create various media formats (if bitmap is not null)" state="underDesign">
+            <MethodExecute name="CreateImageMediaFormats" designDesc="Create various media formats (if bitmap is not null)" state="implemented">
               <Parameter name="MasterRelativeLocation"/>
               <Target name="BitmapData"/>
             </MethodExecute>
@@ -1785,11 +1782,11 @@
           <Description />
         </OperationSpec>
         <Parameters>
-          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="underDesign" />
+          <Parameter dataType="string" name="MasterRelativeLocation" designDesc="Relative location of original" state="implemented" />
         </Parameters>
         <Execution>
           <SequentialExecution>
-            <MethodExecute name="ClearImageMediaFormats" designDesc="Clear various image media formats" state="underDesign">
+            <MethodExecute name="ClearImageMediaFormats" designDesc="Clear various image media formats" state="implemented">
               <Parameter name="MasterRelativeLocation"/>
             </MethodExecute>
           </SequentialExecution>

@@ -22,46 +22,46 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupContainer</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupContainer</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group container</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>CollaboratorID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Collaborator ID within group</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>RoleToAssign</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Role to assign</TextContent>
                       </ColumnData>
                     </Row>
@@ -71,63 +71,63 @@
             </Header>
             <Header text="Target Definition: GroupRoot ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group root for given ID</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: Collaborator ( GroupContainer, CollaboratorID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Collaborator for given ID</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountID ( Collaborator )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account ID of Collaborator</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root of Collaborator</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: EmailAddress ( GroupRoot, AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Email address of collaborator role</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: TBCollaboratorRole ( GroupRoot, EmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Collaborator role in group root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: AssignCollaboratorRole ( TBCollaboratorRole, RoleToAssign )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Assign collaborator role</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account and account and group containers</TextContent>
                 </Text>
               </Paragraph>
@@ -151,13 +151,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>MasterRelativeLocation</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>Relative location of original</TextContent>
                       </ColumnData>
                     </Row>
@@ -167,7 +167,7 @@
             </Header>
             <Header text="Method Call: ClearImageMediaFormats ( MasterRelativeLocation )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
+                <Text>
                   <TextContent>Clear various image media formats</TextContent>
                 </Text>
               </Paragraph>
@@ -191,24 +191,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>MemberEmailAddress</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Email address of the member</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID to invite to</TextContent>
                       </ColumnData>
                     </Row>
@@ -218,35 +218,35 @@
             </Header>
             <Header text="Target Definition: GroupRoot ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group root for given ID</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountID ( MemberEmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account ID of email</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: ConfirmPendingInvitationToGroupRoot ( GroupRoot, MemberEmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Confirm pending invitation to membership in group root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account and account and group containers</TextContent>
                 </Text>
               </Paragraph>
@@ -270,13 +270,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>MasterRelativeLocation</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>Relative location of original</TextContent>
                       </ColumnData>
                     </Row>
@@ -286,21 +286,21 @@
             </Header>
             <Header text="Target Definition: BitmapData ( MasterRelativeLocation )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Bitmap image if existing</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: VideoData ( MasterRelativeLocation )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Videodata</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: CreateImageMediaFormats ( BitmapData, MasterRelativeLocation )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
+                <Text>
                   <TextContent>Create various media formats (if bitmap is not null)</TextContent>
                 </Text>
               </Paragraph>
@@ -331,24 +331,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupName</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group name to be created</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID of initiator</TextContent>
                       </ColumnData>
                     </Row>
@@ -358,49 +358,49 @@
             </Header>
             <Header text="Target Definition: GroupRoot ( GroupName )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Created group with given name</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root of initiator</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountEmails ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account emails</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: AddAsInitiatorToGroupRoot ( GroupRoot, AccountEmails )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Add as initiator group root for every email address</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: InitializeGroupContentAndMasters ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Initialize group content with templates, initialize subscriptions.</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account and account and group containers</TextContent>
                 </Text>
               </Paragraph>
@@ -424,13 +424,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>ObjectToDelete</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TheBall.CORE.IInformationObject</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Information object to delete</TextContent>
                       </ColumnData>
                     </Row>
@@ -440,14 +440,14 @@
             </Header>
             <Header text="Method Call: DeleteObjectViews ( ObjectToDelete )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Delete all information object views from all template-based sites</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: DeleteObject ( ObjectToDelete )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Delete information object</TextContent>
                 </Text>
               </Paragraph>
@@ -471,24 +471,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>MemberEmailAddress</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Email address of the member</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID to invite to</TextContent>
                       </ColumnData>
                     </Row>
@@ -498,49 +498,49 @@
             </Header>
             <Header text="Target Definition: GroupRoot ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group root for given ID</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: EmailValidation ( MemberEmailAddress, GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Email validation item for 14 days</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountID ( MemberEmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account ID of email</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: AddAsPendingInvitationToGroupRoot ( GroupRoot, MemberEmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Add as pending invitation to group root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupRoot, EmailValidation )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: SendEmailConfirmation ( EmailValidation, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Create and send email confirmation for joining the group</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account and account and group containers</TextContent>
                 </Text>
               </Paragraph>
@@ -564,68 +564,68 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TargetObjectID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Target object id</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>CommandName</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Command name</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Owner</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TheBall.CORE.IContainerOwner</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Data owner</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>InformationSources</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>InformationSourceCollection</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Information sources of the page</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>FormSourceNames</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string[]</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Form source names</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>FormSubmitContent</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>NameValueCollection</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Form field collection as-posted</TextContent>
                       </ColumnData>
                     </Row>
@@ -635,7 +635,7 @@
             </Header>
             <Header text="Method Call: ExecuteActualOperation ( TargetObjectID, CommandName, Owner, InformationSources, FormSourceNames, FormSubmitContent )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Execute actual operation</TextContent>
                 </Text>
               </Paragraph>
@@ -648,13 +648,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>RenderPageAfterOperation</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>bool</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>If true, page should be rendered after operation</TextContent>
                       </ColumnData>
                     </Row>
@@ -672,13 +672,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>RenderPageAfterOperation</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>bool</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>If true, page should be rendered after operation</TextContent>
                       </ColumnData>
                     </Row>
@@ -705,24 +705,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID of group being published</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>UseWorker</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>bool</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Use worker as processor</TextContent>
                       </ColumnData>
                     </Row>
@@ -732,22 +732,22 @@
             </Header>
             <Header text="Target Definition: CurrentContainerName ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group's content container name</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: PublicContainerName ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group's public container name</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: PublishGroupContent ( CurrentContainerName, PublicContainerName, GroupID, UseWorker )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
-                  <TextContent>Do the update page</TextContent>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Publish group content to public area. Also media files.</TextContent>
                 </Text>
               </Paragraph>
             </Header>
@@ -770,24 +770,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID of group being published</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>UseWorker</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>bool</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Use worker as processor</TextContent>
                       </ColumnData>
                     </Row>
@@ -797,22 +797,22 @@
             </Header>
             <Header text="Target Definition: CurrentContainerName ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group's content container name</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: WwwContainerName ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group's www container name</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: PublishGroupContentToWww ( CurrentContainerName, WwwContainerName, GroupID, UseWorker )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
-                  <TextContent>Do the update page</TextContent>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Publish group content to www. Also media files.</TextContent>
                 </Text>
               </Paragraph>
             </Header>
@@ -835,24 +835,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TBRGroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group root record</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID to update</TextContent>
                       </ColumnData>
                     </Row>
@@ -862,35 +862,35 @@
             </Header>
             <Header text="Operation Call: UpdateAccountRoot ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateAccountRootReferences ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account root references</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateAccountLoginGroups ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update login group permissions</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateGroupContainers ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update group containers</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateAccountContainers ( GroupRoot, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account containers</TextContent>
                 </Text>
               </Paragraph>
@@ -914,35 +914,35 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>EmailAddress</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Email address of the member</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID of the member</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group ID to remove from</TextContent>
                       </ColumnData>
                     </Row>
@@ -952,49 +952,49 @@
             </Header>
             <Header text="Target Definition: GroupRoot ( GroupID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group root for given ID</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: MemberAccountID ( EmailAddress, AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account ID of email</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountRoot ( MemberAccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root of member</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: MemberEmailAddress ( AccountRoot, GroupRoot, EmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Member email address</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: RemoveMemberFromGroup ( MemberEmailAddress, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Remove member from group</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, MemberAccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account and account and group containers</TextContent>
                 </Text>
               </Paragraph>
@@ -1018,35 +1018,35 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountContainerBeforeGroupRemoval</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountContainer</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account container</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>EmailAddressID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Email Address ID within AccountContainer</TextContent>
                       </ColumnData>
                     </Row>
@@ -1056,77 +1056,77 @@
             </Header>
             <Header text="Target Definition: AccountRootBeforeGroupRemoval ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root of Collaborator</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: EmailAddress ( AccountContainerBeforeGroupRemoval, EmailAddressID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Email address within the account container</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: GroupRoots ( AccountRootBeforeGroupRemoval, EmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group roots for account, having the unlinked email address</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: RemoveGroupMemberships ( EmailAddress, GroupRoots )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Assign collaborator role</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountRootAfterGroupRemoval ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root AFTER group removal</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: EmailRoot ( EmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Email root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: RemoveEmailFromAccountRoot ( AccountRootAfterGroupRemoval, EmailAddress )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Remove email from account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: DeleteEmailRoot ( EmailRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Delete email root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( AccountRootAfterGroupRemoval )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified accountcontainer and accountroot</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateAccountContainer ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account container from account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Operation Call: UpdateAccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account root references</TextContent>
                 </Text>
               </Paragraph>
@@ -1150,13 +1150,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID</TextContent>
                       </ColumnData>
                     </Row>
@@ -1166,35 +1166,35 @@
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root </TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountContainer ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account container. Create if missing.</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountContainerLogins ( AccountRoot, AccountContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account container logins</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountContainerEmails ( AccountRoot, AccountContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account container emails</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( AccountContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
@@ -1218,24 +1218,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TBRGroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group root record</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID to update</TextContent>
                       </ColumnData>
                     </Row>
@@ -1245,56 +1245,56 @@
             </Header>
             <Header text="Target Definition: GroupContainer ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group's group container</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: Group ( GroupContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group item</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountContainer ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account container</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: GroupSummaryContainer ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group summary container of account</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateGroupSummaryContainerMemberships ( Group, AccountRoot, GroupSummaryContainer, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update group summary container memberships</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountContainerMemberships ( Group, GroupSummaryContainer, AccountRoot, AccountContainer, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account container memberships</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( AccountContainer, GroupSummaryContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
@@ -1318,24 +1318,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TBRGroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group root record</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID to update</TextContent>
                       </ColumnData>
                     </Row>
@@ -1345,21 +1345,21 @@
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountRootGroupMemberships ( AccountRoot, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update account root group membership</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
@@ -1383,13 +1383,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID to update</TextContent>
                       </ColumnData>
                     </Row>
@@ -1399,42 +1399,42 @@
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountLogins ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account logins</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: AccountEmails ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account logins</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountToLogins ( AccountRoot, AccountLogins )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Delete email root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateAccountToEmails ( AccountRoot, AccountEmails )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Delete email root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( AccountLogins, AccountEmails )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
@@ -1458,13 +1458,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>GroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>TBRGroupRoot</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Group root record</TextContent>
                       </ColumnData>
                     </Row>
@@ -1474,28 +1474,28 @@
             </Header>
             <Header text="Target Definition: AccountRootsAndContainers ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account roots and containers for profile information</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: GroupContainer ( GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Group container in the group</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: UpdateGroupContainerMembership ( AccountRootsAndContainers, GroupContainer, GroupRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Update group container memberships</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: StoreObjects ( GroupContainer )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Store modified objects</TextContent>
                 </Text>
               </Paragraph>
@@ -1519,13 +1519,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>AccountID</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>string</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Account ID to update</TextContent>
                       </ColumnData>
                     </Row>
@@ -1535,21 +1535,21 @@
             </Header>
             <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account root</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Target Definition: LoginGroupRoots ( AccountRoot )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Account's group login entries</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Method Call: SynchronizeLoginGroupRoots ( AccountRoot, LoginGroupRoots )" level="2">
               <Paragraph>
-                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                <Text>
                   <TextContent>Add missing and remove nonexistent login group roots</TextContent>
                 </Text>
               </Paragraph>
@@ -1580,7 +1580,7 @@
                         <TextContent>string</TextContent>
                       </ColumnData>
                       <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
-                        <TextContent>Test</TextContent>
+                        <TextContent>Under design (not sure if needed)</TextContent>
                       </ColumnData>
                     </Row>
                   </Rows>
@@ -1590,7 +1590,7 @@
             <Header text="Method Call: UpdatePage" level="2">
               <Paragraph>
                 <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
-                  <TextContent>Do the update page</TextContent>
+                  <TextContent>Do the update page execution</TextContent>
                 </Text>
               </Paragraph>
             </Header>

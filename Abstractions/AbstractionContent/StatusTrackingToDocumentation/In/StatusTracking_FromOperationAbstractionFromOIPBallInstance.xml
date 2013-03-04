@@ -2,412 +2,412 @@
 <StatusTrackingAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/StatusTracking_v1_0.xsd">
   <StatusItems scopeName="AaltoGlobalImpact.OIP">
     <StatusItem name="CreateGroup_GroupName" displayName="VariableType: GroupName" description="Group name to be created">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_AccountID" displayName="VariableType: AccountID" description="Account ID of initiator">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Created group with given name">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root of initiator">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_AccountEmails" displayName="TargetDefinitionType: AccountEmails" description="Account emails">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_AddAsInitiatorToGroupRoot" displayName="MethodExecuteType: AddAsInitiatorToGroupRoot" description="Add as initiator group root for every email address">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_InitializeGroupContentAndMasters" displayName="MethodExecuteType: InitializeGroupContentAndMasters" description="Initialize group content with templates, initialize subscriptions.">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateGroup_RefreshAccountAndGroupContainers" displayName="OperationExecuteType: RefreshAccountAndGroupContainers" description="Update account and account and group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_MemberEmailAddress" displayName="VariableType: MemberEmailAddress" description="Email address of the member">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_GroupID" displayName="VariableType: GroupID" description="Group ID to invite to">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Group root for given ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_EmailValidation" displayName="TargetDefinitionType: EmailValidation" description="Email validation item for 14 days">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_AccountID" displayName="TargetDefinitionType: AccountID" description="Account ID of email">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_AddAsPendingInvitationToGroupRoot" displayName="MethodExecuteType: AddAsPendingInvitationToGroupRoot" description="Add as pending invitation to group root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_SendEmailConfirmation" displayName="MethodExecuteType: SendEmailConfirmation" description="Create and send email confirmation for joining the group">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="InviteMemberToGroup_RefreshAccountAndGroupContainers" displayName="OperationExecuteType: RefreshAccountAndGroupContainers" description="Update account and account and group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_EmailAddress" displayName="VariableType: EmailAddress" description="Email address of the member">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_AccountID" displayName="VariableType: AccountID" description="AccountID of the member">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_GroupID" displayName="VariableType: GroupID" description="Group ID to remove from">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Group root for given ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_MemberAccountID" displayName="TargetDefinitionType: MemberAccountID" description="Account ID of email">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root of member">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_MemberEmailAddress" displayName="TargetDefinitionType: MemberEmailAddress" description="Member email address">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_RemoveMemberFromGroup" displayName="MethodExecuteType: RemoveMemberFromGroup" description="Remove member from group">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RemoveMemberFromGroup_RefreshAccountAndGroupContainers" displayName="OperationExecuteType: RefreshAccountAndGroupContainers" description="Update account and account and group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_MemberEmailAddress" displayName="VariableType: MemberEmailAddress" description="Email address of the member">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_GroupID" displayName="VariableType: GroupID" description="Group ID to invite to">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Group root for given ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_AccountID" displayName="TargetDefinitionType: AccountID" description="Account ID of email">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_ConfirmPendingInvitationToGroupRoot" displayName="MethodExecuteType: ConfirmPendingInvitationToGroupRoot" description="Confirm pending invitation to membership in group root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ConfirmInviteToJoinGroup_RefreshAccountAndGroupContainers" displayName="OperationExecuteType: RefreshAccountAndGroupContainers" description="Update account and account and group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_GroupID" displayName="VariableType: GroupID" description="Group ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_GroupContainer" displayName="VariableType: GroupContainer" description="Group container">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_CollaboratorID" displayName="VariableType: CollaboratorID" description="Collaborator ID within group">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_RoleToAssign" displayName="VariableType: RoleToAssign" description="Role to assign">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Group root for given ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_Collaborator" displayName="TargetDefinitionType: Collaborator" description="Collaborator for given ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_AccountID" displayName="TargetDefinitionType: AccountID" description="Account ID of Collaborator">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root of Collaborator">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_EmailAddress" displayName="TargetDefinitionType: EmailAddress" description="Email address of collaborator role">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_TBCollaboratorRole" displayName="TargetDefinitionType: TBCollaboratorRole" description="Collaborator role in group root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_AssignCollaboratorRole" displayName="MethodExecuteType: AssignCollaboratorRole" description="Assign collaborator role">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="AssignCollaboratorRole_RefreshAccountAndGroupContainers" displayName="OperationExecuteType: RefreshAccountAndGroupContainers" description="Update account and account and group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_AccountID" displayName="VariableType: AccountID" description="Account ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root ">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_AccountContainer" displayName="TargetDefinitionType: AccountContainer" description="Account container. Create if missing.">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_UpdateAccountContainerLogins" displayName="MethodExecuteType: UpdateAccountContainerLogins" description="Update account container logins">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_UpdateAccountContainerEmails" displayName="MethodExecuteType: UpdateAccountContainerEmails" description="Update account container emails">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainerFromAccountRoot_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_AccountID" displayName="VariableType: AccountID" description="Account ID">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_AccountContainerBeforeGroupRemoval" displayName="VariableType: AccountContainerBeforeGroupRemoval" description="Account container">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_EmailAddressID" displayName="VariableType: EmailAddressID" description="Email Address ID within AccountContainer">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_AccountRootBeforeGroupRemoval" displayName="TargetDefinitionType: AccountRootBeforeGroupRemoval" description="Account root of Collaborator">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_EmailAddress" displayName="TargetDefinitionType: EmailAddress" description="Email address within the account container">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_GroupRoots" displayName="TargetDefinitionType: GroupRoots" description="Group roots for account, having the unlinked email address">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_RemoveGroupMemberships" displayName="MethodExecuteType: RemoveGroupMemberships" description="Assign collaborator role">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_AccountRootAfterGroupRemoval" displayName="TargetDefinitionType: AccountRootAfterGroupRemoval" description="Account root AFTER group removal">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_EmailRoot" displayName="TargetDefinitionType: EmailRoot" description="Email root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_RemoveEmailFromAccountRoot" displayName="MethodExecuteType: RemoveEmailFromAccountRoot" description="Remove email from account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_DeleteEmailRoot" displayName="MethodExecuteType: DeleteEmailRoot" description="Delete email root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified accountcontainer and accountroot">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_UpdateAccountContainer" displayName="OperationExecuteType: UpdateAccountContainer" description="Update account container from account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UnlinkEmailAddress_UpdateAccountRoot" displayName="OperationExecuteType: UpdateAccountRoot" description="Update account root references">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_AccountID" displayName="VariableType: AccountID" description="Account ID to update">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_AccountLogins" displayName="TargetDefinitionType: AccountLogins" description="Account logins">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_AccountEmails" displayName="TargetDefinitionType: AccountEmails" description="Account logins">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_UpdateAccountToLogins" displayName="MethodExecuteType: UpdateAccountToLogins" description="Delete email root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_UpdateAccountToEmails" displayName="MethodExecuteType: UpdateAccountToEmails" description="Delete email root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootToReferences_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_GroupRoot" displayName="VariableType: GroupRoot" description="Group root record">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_AccountID" displayName="VariableType: AccountID" description="Account ID to update">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_UpdateAccountRoot" displayName="OperationExecuteType: UpdateAccountRoot" description="Update account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_UpdateAccountRootReferences" displayName="OperationExecuteType: UpdateAccountRootReferences" description="Update account root references">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_UpdateAccountLoginGroups" displayName="OperationExecuteType: UpdateAccountLoginGroups" description="Update login group permissions">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_UpdateGroupContainers" displayName="OperationExecuteType: UpdateGroupContainers" description="Update group containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="RefreshAccountGroupMemberships_UpdateAccountContainers" displayName="OperationExecuteType: UpdateAccountContainers" description="Update account containers">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateGroupContainersGroupMembership_GroupRoot" displayName="VariableType: GroupRoot" description="Group root record">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateGroupContainersGroupMembership_AccountRootsAndContainers" displayName="TargetDefinitionType: AccountRootsAndContainers" description="Account roots and containers for profile information">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateGroupContainersGroupMembership_GroupContainer" displayName="TargetDefinitionType: GroupContainer" description="Group container in the group">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateGroupContainersGroupMembership_UpdateGroupContainerMembership" displayName="MethodExecuteType: UpdateGroupContainerMembership" description="Update group container memberships">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateGroupContainersGroupMembership_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="DeleteInformationObject_ObjectToDelete" displayName="VariableType: ObjectToDelete" description="Information object to delete">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="DeleteInformationObject_DeleteObjectViews" displayName="MethodExecuteType: DeleteObjectViews" description="Delete all information object views from all template-based sites">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="DeleteInformationObject_DeleteObject" displayName="MethodExecuteType: DeleteObject" description="Delete information object">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateLoginGroupPermissions_AccountID" displayName="VariableType: AccountID" description="Account ID to update">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateLoginGroupPermissions_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateLoginGroupPermissions_LoginGroupRoots" displayName="TargetDefinitionType: LoginGroupRoots" description="Account's group login entries">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateLoginGroupPermissions_SynchronizeLoginGroupRoots" displayName="MethodExecuteType: SynchronizeLoginGroupRoots" description="Add missing and remove nonexistent login group roots">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootGroupMembership_GroupRoot" displayName="VariableType: GroupRoot" description="Group root record">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootGroupMembership_AccountID" displayName="VariableType: AccountID" description="Account ID to update">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootGroupMembership_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootGroupMembership_UpdateAccountRootGroupMemberships" displayName="MethodExecuteType: UpdateAccountRootGroupMemberships" description="Update account root group membership">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountRootGroupMembership_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_GroupRoot" displayName="VariableType: GroupRoot" description="Group root record">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_AccountID" displayName="VariableType: AccountID" description="Account ID to update">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_GroupContainer" displayName="TargetDefinitionType: GroupContainer" description="Group's group container">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_Group" displayName="TargetDefinitionType: Group" description="Group item">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_AccountRoot" displayName="TargetDefinitionType: AccountRoot" description="Account root">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_AccountContainer" displayName="TargetDefinitionType: AccountContainer" description="Account container">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_GroupSummaryContainer" displayName="TargetDefinitionType: GroupSummaryContainer" description="Group summary container of account">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_UpdateGroupSummaryContainerMemberships" displayName="MethodExecuteType: UpdateGroupSummaryContainerMemberships" description="Update group summary container memberships">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_UpdateAccountContainerMemberships" displayName="MethodExecuteType: UpdateAccountContainerMemberships" description="Update account container memberships">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="UpdateAccountContainersGroupMembership_StoreObjects" displayName="MethodExecuteType: StoreObjects" description="Store modified objects">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_TargetObjectID" displayName="VariableType: TargetObjectID" description="Target object id">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_CommandName" displayName="VariableType: CommandName" description="Command name">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_Owner" displayName="VariableType: Owner" description="Data owner">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_InformationSources" displayName="VariableType: InformationSources" description="Information sources of the page">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_FormSourceNames" displayName="VariableType: FormSourceNames" description="Form source names">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_FormSubmitContent" displayName="VariableType: FormSubmitContent" description="Form field collection as-posted">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_ExecuteActualOperation" displayName="MethodExecuteType: ExecuteActualOperation" description="Execute actual operation">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PerformWebAction_RenderPageAfterOperation" displayName="VariableType: RenderPageAfterOperation" description="If true, page should be rendered after operation">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToPublicArea_GroupID" displayName="VariableType: GroupID" description="Group ID of group being published">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToPublicArea_UseWorker" displayName="VariableType: UseWorker" description="Use worker as processor">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToPublicArea_CurrentContainerName" displayName="TargetDefinitionType: CurrentContainerName" description="Group's content container name">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToPublicArea_PublicContainerName" displayName="TargetDefinitionType: PublicContainerName" description="Group's public container name">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
-    <StatusItem name="PublishGroupContentToPublicArea_PublishGroupContent" displayName="MethodExecuteType: PublishGroupContent" description="Do the update page">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
+    <StatusItem name="PublishGroupContentToPublicArea_PublishGroupContent" displayName="MethodExecuteType: PublishGroupContent" description="Publish group content to public area. Also media files.">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToWww_GroupID" displayName="VariableType: GroupID" description="Group ID of group being published">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToWww_UseWorker" displayName="VariableType: UseWorker" description="Use worker as processor">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToWww_CurrentContainerName" displayName="TargetDefinitionType: CurrentContainerName" description="Group's content container name">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="PublishGroupContentToWww_WwwContainerName" displayName="TargetDefinitionType: WwwContainerName" description="Group's www container name">
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="PublishGroupContentToWww_PublishGroupContentToWww" displayName="MethodExecuteType: PublishGroupContentToWww" description="Publish group content to www. Also media files.">
       <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>
-    <StatusItem name="PublishGroupContentToWww_PublishGroupContentToWww" displayName="MethodExecuteType: PublishGroupContentToWww" description="Do the update page">
+    <StatusItem name="UpdatePageContent_changedInformation" displayName="VariableType: changedInformation" description="Under design (not sure if needed)">
       <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
     </StatusItem>
-    <StatusItem name="UpdatePageContent_changedInformation" displayName="VariableType: changedInformation" description="Test">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
-    </StatusItem>
-    <StatusItem name="UpdatePageContent_UpdatePage" displayName="MethodExecuteType: UpdatePage" description="Do the update page">
+    <StatusItem name="UpdatePageContent_UpdatePage" displayName="MethodExecuteType: UpdatePage" description="Do the update page execution">
       <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateAdditionalMediaFormats_MasterRelativeLocation" displayName="VariableType: MasterRelativeLocation" description="Relative location of original">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateAdditionalMediaFormats_BitmapData" displayName="TargetDefinitionType: BitmapData" description="Bitmap image if existing">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateAdditionalMediaFormats_VideoData" displayName="TargetDefinitionType: VideoData" description="Videodata">
-      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateAdditionalMediaFormats_CreateImageMediaFormats" displayName="MethodExecuteType: CreateImageMediaFormats" description="Create various media formats (if bitmap is not null)">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="CreateAdditionalMediaFormats_CreateVideoMediaFormats" displayName="MethodExecuteType: CreateVideoMediaFormats" description="Create various video media formats (if object is not null)">
       <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ClearAdditionalMediaFormats_MasterRelativeLocation" displayName="VariableType: MasterRelativeLocation" description="Relative location of original">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
     <StatusItem name="ClearAdditionalMediaFormats_ClearImageMediaFormats" displayName="MethodExecuteType: ClearImageMediaFormats" description="Clear various image media formats">
-      <StatusValue trafficLightIndicator="red" indicatorDisplayText="Under design" indicatorValue="1" />
+      <StatusValue trafficLightIndicator="green" indicatorDisplayText="Implemented" indicatorValue="1" />
     </StatusItem>
   </StatusItems>
   <Groups>
