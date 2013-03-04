@@ -7,27 +7,9 @@
 [submodule "Abstractions/absbuilder"]
 	path = Abstractions/absbuilder
 	url = git://github.com/abstractiondev/absbuilder
-[submodule "Abstractions/UserInterfaceABS"]
-	path = Abstractions/UserInterfaceABS
-	url = git://github.com/abstractiondev/UserInterfaceABS
-[submodule "Abstractions/ServiceLayerABS"]
-	path = Abstractions/ServiceLayerABS
-	url = git://github.com/abstractiondev/ServiceLayerABS
-[submodule "Abstractions/ClassModelABS"]
-	path = Abstractions/ClassModelABS
-	url = git://github.com/abstractiondev/ClassModelABS
-[submodule "Abstractions/UserInterfaceToClassModelTRANS"]
-	path = Abstractions/UserInterfaceToClassModelTRANS
-	url = git://github.com/abstractiondev/UserInterfaceToClassModelTRANS
-[submodule "Abstractions/UserInterfaceToOperationTRANS"]
-	path = Abstractions/UserInterfaceToOperationTRANS
-	url = git://github.com/abstractiondev/UserInterfaceToOperationTRANS
 [submodule "Abstractions/OperationABS"]
 	path = Abstractions/OperationABS
 	url = git://github.com/abstractiondev/OperationABS
-[submodule "Abstractions/ObjectRelationalABS"]
-	path = Abstractions/ObjectRelationalABS
-	url = git://github.com/abstractiondev/ObjectRelationalABS
 [submodule "Apps/WorkerTemplate/CaloomUI"]
 	path = Apps/WorkerTemplate/CaloomUI
 	url = git://github.com/kallex/CaloomUI.git
