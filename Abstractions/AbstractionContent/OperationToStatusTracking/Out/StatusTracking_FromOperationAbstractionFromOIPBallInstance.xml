@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <StatusTrackingAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/StatusTracking_v1_0.xsd">
-  <StatusItems>
+  <StatusItems scopeName="AaltoGlobalImpact.OIP">
     <StatusItem name="CreateGroup_GroupName" displayName="VariableType: GroupName" description="Group name to be created">
       <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>

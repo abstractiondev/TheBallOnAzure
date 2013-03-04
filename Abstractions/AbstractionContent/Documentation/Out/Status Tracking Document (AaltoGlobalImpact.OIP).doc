@@ -1,0 +1,2709 @@
+ 
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormalRed, li.MsoNormalRed, div.MsoNormalRed
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;
+	text-decoration:underline;
+	color:Red;
+	}
+ p.MsoNormalBlue, li.MsoNormalBlue, div.MsoNormalBlue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;
+	font-style:italic;
+	color:Blue;
+	}
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 2.0cm 70.85pt 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+		<body lang=EN link=blue vlink=purple>
+
+<div class=WordSection1>
+
+		
+		<div style='border:none;border-bottom:solid #4F81BD 1.0pt;padding:0cm 0cm 4.0pt 0cm'>
+<p class="MsoTitle">Status Tracking Document (AaltoGlobalImpact.OIP)</p>
+</div>
+		<h1>Summary</h1>
+		<h2>UpdatePageContent (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Under design 2
+		</div>
+		</p><h2>ClearAdditionalMediaFormats (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Under design 2
+		</div>
+		</p><h2>CreateAdditionalMediaFormats (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Under design 2, Being implemented 3
+		</div>
+		</p><h2>PublishGroupContentToPublicArea (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Under design 1, Being implemented 4
+		</div>
+		</p><h2>PublishGroupContentToWww (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Under design 1, Being implemented 4
+		</div>
+		</p><h2>CreateGroup (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 9
+		</div>
+		</p><h2>InviteMemberToGroup (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 9
+		</div>
+		</p><h2>RemoveMemberFromGroup (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 10
+		</div>
+		</p><h2>ConfirmInviteToJoinGroup (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 7
+		</div>
+		</p><h2>AssignCollaboratorRole (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 13
+		</div>
+		</p><h2>UpdateAccountContainerFromAccountRoot (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 6
+		</div>
+		</p><h2>UnlinkEmailAddress (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 14
+		</div>
+		</p><h2>UpdateAccountRootToReferences (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 7
+		</div>
+		</p><h2>RefreshAccountGroupMemberships (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 7
+		</div>
+		</p><h2>UpdateGroupContainersGroupMembership (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 5
+		</div>
+		</p><h2>DeleteInformationObject (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 3
+		</div>
+		</p><h2>UpdateLoginGroupPermissions (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 4
+		</div>
+		</p><h2>UpdateAccountRootGroupMembership (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 5
+		</div>
+		</p><h2>UpdateAccountContainersGroupMembership (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 10
+		</div>
+		</p><h2>PerformWebAction (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 8
+		</div>
+		</p><h1>AssignCollaboratorRole (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: CollaboratorID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator ID within group
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: RoleToAssign
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Role to assign
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: Collaborator
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator for given ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of Collaborator
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of Collaborator
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: EmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of collaborator role
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: TBCollaboratorRole
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Collaborator role in group root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: AssignCollaboratorRole
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Assign collaborator role
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: RefreshAccountAndGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>ClearAdditionalMediaFormats (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		VariableType: MasterRelativeLocation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Relative location of original
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MethodExecuteType: ClearImageMediaFormats
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Clear various image media formats
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>ConfirmInviteToJoinGroup (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: MemberEmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to invite to
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: ConfirmPendingInvitationToGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Confirm pending invitation to membership in group root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: RefreshAccountAndGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>CreateAdditionalMediaFormats (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		VariableType: MasterRelativeLocation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Relative location of original
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: BitmapData
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Bitmap image if existing
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: VideoData
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Videodata
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MethodExecuteType: CreateImageMediaFormats
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Create various media formats (if bitmap is not null)
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: CreateVideoMediaFormats
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Create various video media formats (if object is not null)
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>CreateGroup (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group name to be created
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of initiator
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Created group with given name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of initiator
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountEmails
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account emails
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: AddAsInitiatorToGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add as initiator group root for every email address
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: InitializeGroupContentAndMasters
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Initialize group content with templates, initialize subscriptions.
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: RefreshAccountAndGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>DeleteInformationObject (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: ObjectToDelete
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Information object to delete
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: DeleteObjectViews
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete all information object views from all template-based sites
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: DeleteObject
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete information object
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>InviteMemberToGroup (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: MemberEmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to invite to
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: EmailValidation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email validation item for 14 days
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: AddAsPendingInvitationToGroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add as pending invitation to group root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: SendEmailConfirmation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Create and send email confirmation for joining the group
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: RefreshAccountAndGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>PerformWebAction (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: TargetObjectID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Target object id
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: CommandName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Command name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: Owner
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Data owner
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: InformationSources
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Information sources of the page
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: FormSourceNames
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Form source names
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: FormSubmitContent
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Form field collection as-posted
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: ExecuteActualOperation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Execute actual operation
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: RenderPageAfterOperation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		If true, page should be rendered after operation
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>PublishGroupContentToPublicArea (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID of group being published
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: UseWorker
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Use worker as processor
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: CurrentContainerName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's content container name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: PublicContainerName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's public container name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MethodExecuteType: PublishGroupContent
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>PublishGroupContentToWww (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID of group being published
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: UseWorker
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Use worker as processor
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: CurrentContainerName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's content container name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: WwwContainerName
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's www container name
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MethodExecuteType: PublishGroupContentToWww
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>RefreshAccountGroupMemberships (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountRootReferences
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root references
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountLoginGroups
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update login group permissions
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group containers
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>RemoveMemberFromGroup (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: EmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		AccountID of the member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group ID to remove from
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root for given ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: MemberAccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID of email
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of member
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: MemberEmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Member email address
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: RemoveMemberFromGroup
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Remove member from group
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: RefreshAccountAndGroupContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account and account and group containers
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UnlinkEmailAddress (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountContainerBeforeGroupRemoval
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: EmailAddressID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email Address ID within AccountContainer
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRootBeforeGroupRemoval
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root of Collaborator
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: EmailAddress
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email address within the account container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupRoots
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group roots for account, having the unlinked email address
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: RemoveGroupMemberships
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Assign collaborator role
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRootAfterGroupRemoval
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root AFTER group removal
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: EmailRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Email root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: RemoveEmailFromAccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Remove email from account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: DeleteEmailRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified accountcontainer and accountroot
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container from account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		OperationExecuteType: UpdateAccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root references
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateAccountContainerFromAccountRoot (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root 
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container. Create if missing.
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountContainerLogins
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container logins
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountContainerEmails
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container emails
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateAccountContainersGroupMembership (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group's group container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: Group
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group item
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account container
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupSummaryContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group summary container of account
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateGroupSummaryContainerMemberships
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group summary container memberships
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountContainerMemberships
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account container memberships
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateAccountRootGroupMembership (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountRootGroupMemberships
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update account root group membership
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateAccountRootToReferences (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountLogins
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account logins
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountEmails
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account logins
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountToLogins
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateAccountToEmails
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete email root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateGroupContainersGroupMembership (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: GroupRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group root record
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRootsAndContainers
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account roots and containers for profile information
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: GroupContainer
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Group container in the group
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: UpdateGroupContainerMembership
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Update group container memberships
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: StoreObjects
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Store modified objects
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdateLoginGroupPermissions (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: AccountID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account ID to update
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: AccountRoot
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account root
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: LoginGroupRoots
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Account's group login entries
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: SynchronizeLoginGroupRoots
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Add missing and remove nonexistent login group roots
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>UpdatePageContent (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		VariableType: changedInformation
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Test
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		MethodExecuteType: UpdatePage
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Under design
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:red;font-weight:bold;text-decoration:underline" >
+		Do the update page
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p></div>
+
+</body>
+</html>
+		
+		
