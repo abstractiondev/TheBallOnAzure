@@ -20,10 +20,20 @@
       <Transformation name="OperationToDocumentationTRANS"
                        sourceAbstraction="Operation"
                        targetAbstraction="Documentation"/>
+      <Transformation name="OperationToStatusTrackingTRANS"
+                      sourceAbstraction="Operation"
+                      targetAbstraction="StatusTracking"
+                      />
+      <Transformation name="StatusTrackingToDocumentationTRANS"
+                      sourceAbstraction="StatusTracking"
+                      targetAbstraction="Documentation"
+                      />
     </Transformations>
     <BuildExecution>
       <TransformationItem nameRef="TheBallCoreToOperationTRANS" />
       <TransformationItem nameRef="OperationToDocumentationTRANS" />
+      <TransformationItem nameRef="OperationToStatusTrackingTRANS" />
+      <TransformationItem nameRef="StatusTrackingToDocumentationTRANS" />
       <AbstractionItem nameRef="OperationABS"/>
       <AbstractionItem nameRef="TheBallCoreABS"/>
       <AbstractionItem nameRef="DocumentationABS"/>

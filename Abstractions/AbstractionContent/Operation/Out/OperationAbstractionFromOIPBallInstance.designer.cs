@@ -78,14 +78,14 @@ using System.IO;
 		{
 						PrepareParameters(parameters);
 					TBRGroupRoot GroupRoot = RemoveMemberFromGroupImplementation.GetTarget_GroupRoot(parameters.GroupID);	
-				string AccountID = RemoveMemberFromGroupImplementation.GetTarget_AccountID(parameters.EmailAddress, parameters.AccountID);	
-				TBRAccountRoot AccountRoot = RemoveMemberFromGroupImplementation.GetTarget_AccountRoot(AccountID);	
+				string MemberAccountID = RemoveMemberFromGroupImplementation.GetTarget_MemberAccountID(parameters.EmailAddress, parameters.AccountID);	
+				TBRAccountRoot AccountRoot = RemoveMemberFromGroupImplementation.GetTarget_AccountRoot(MemberAccountID);	
 				string MemberEmailAddress = RemoveMemberFromGroupImplementation.GetTarget_MemberEmailAddress(parameters.EmailAddress, AccountRoot, GroupRoot);	
 				RemoveMemberFromGroupImplementation.ExecuteMethod_RemoveMemberFromGroup(MemberEmailAddress, GroupRoot);		
 				RemoveMemberFromGroupImplementation.ExecuteMethod_StoreObjects(GroupRoot);		
 				
 		{ // Local block to allow local naming
-			RefreshAccountGroupMembershipsParameters operationParameters = RemoveMemberFromGroupImplementation.RefreshAccountAndGroupContainers_GetParameters(GroupRoot, AccountID);
+			RefreshAccountGroupMembershipsParameters operationParameters = RemoveMemberFromGroupImplementation.RefreshAccountAndGroupContainers_GetParameters(GroupRoot, MemberAccountID);
 			RefreshAccountGroupMemberships.Execute(operationParameters);
 									
 		} // Local block closing

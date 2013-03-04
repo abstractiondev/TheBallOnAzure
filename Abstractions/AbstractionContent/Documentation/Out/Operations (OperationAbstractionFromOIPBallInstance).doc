@@ -1045,11 +1045,11 @@ div.WordSection1
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Group root for given ID
 		</div>
-		</p><h2>Target Definition: AccountID ( EmailAddress, AccountID )</h2>
+		</p><h2>Target Definition: MemberAccountID ( EmailAddress, AccountID )</h2>
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Account ID of email
 		</div>
-		</p><h2>Target Definition: AccountRoot ( AccountID )</h2>
+		</p><h2>Target Definition: AccountRoot ( MemberAccountID )</h2>
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Account root of member
 		</div>
@@ -1065,7 +1065,7 @@ div.WordSection1
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Store modified objects
 		</div>
-		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )</h2>
+		</p><h2>Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, MemberAccountID )</h2>
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Update account and account and group containers
 		</div>

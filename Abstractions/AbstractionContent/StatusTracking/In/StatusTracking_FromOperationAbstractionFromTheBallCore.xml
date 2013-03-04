@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<StatusTrackingAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/StatusTracking_v1_0.xsd">
+  <StatusItems>
+    <StatusItem name="CreateInvoiceForGroup_GroupID" displayName="VariableType: GroupID" description="Group ID">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="CreateInvoiceForGroup_GroupRoot" displayName="TargetDefinitionType: GroupRoot" description="Group root">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+  </StatusItems>
+  <Groups>
+    <Group name="CreateInvoiceForGroup">
+      <ItemRef itemName="CreateInvoiceForGroup_GroupID" />
+      <ItemRef itemName="CreateInvoiceForGroup_GroupRoot" />
+    </Group>
+  </Groups>
+</StatusTrackingAbstraction>

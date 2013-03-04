@@ -1,0 +1,1909 @@
+<?xml version="1.0"?>
+<DocumentationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
+  <Documentations>
+    <Documents>
+      <Document name="Status Tracking Document" title="Status Tracking Document">
+        <Content>
+          <Header text="Summary" level="1">
+            <Header text="UpdatePageContent (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 2</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="ClearAdditionalMediaFormats (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 2</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="CreateAdditionalMediaFormats (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 2, Being implemented 3</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="PublishGroupContentToPublicArea (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 1, Being implemented 4</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="PublishGroupContentToWww (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 1, Being implemented 4</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="CreateGroup (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 9</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="InviteMemberToGroup (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 9</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="RemoveMemberFromGroup (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 10</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="ConfirmInviteToJoinGroup (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 7</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="AssignCollaboratorRole (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 13</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateAccountContainerFromAccountRoot (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 6</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UnlinkEmailAddress (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 14</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateAccountRootToReferences (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 7</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="RefreshAccountGroupMemberships (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 7</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateGroupContainersGroupMembership (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 5</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="DeleteInformationObject (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 3</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateLoginGroupPermissions (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 4</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateAccountRootGroupMembership (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 5</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="UpdateAccountContainersGroupMembership (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 10</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="PerformWebAction (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 8</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+          </Header>
+          <Header text="AssignCollaboratorRole (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group container</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: CollaboratorID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Collaborator ID within group</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: RoleToAssign</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Role to assign</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root for given ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: Collaborator</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Collaborator for given ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID of Collaborator</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root of Collaborator</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: EmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email address of collaborator role</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: TBCollaboratorRole</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Collaborator role in group root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: AssignCollaboratorRole</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Assign collaborator role</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: RefreshAccountAndGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account and account and group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="ClearAdditionalMediaFormats (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>VariableType: MasterRelativeLocation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Relative location of original</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>MethodExecuteType: ClearImageMediaFormats</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Clear various image media formats</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="ConfirmInviteToJoinGroup (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: MemberEmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email address of the member</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID to invite to</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root for given ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID of email</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: ConfirmPendingInvitationToGroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Confirm pending invitation to membership in group root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: RefreshAccountAndGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account and account and group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="CreateAdditionalMediaFormats (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>VariableType: MasterRelativeLocation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Relative location of original</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: BitmapData</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Bitmap image if existing</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: VideoData</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Videodata</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>MethodExecuteType: CreateImageMediaFormats</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Create various media formats (if bitmap is not null)</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: CreateVideoMediaFormats</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Create various video media formats (if object is not null)</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="CreateGroup (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group name to be created</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID of initiator</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Created group with given name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root of initiator</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountEmails</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account emails</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: AddAsInitiatorToGroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Add as initiator group root for every email address</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: InitializeGroupContentAndMasters</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Initialize group content with templates, initialize subscriptions.</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: RefreshAccountAndGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account and account and group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="DeleteInformationObject (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: ObjectToDelete</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Information object to delete</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: DeleteObjectViews</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete all information object views from all template-based sites</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: DeleteObject</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete information object</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="InviteMemberToGroup (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: MemberEmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email address of the member</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID to invite to</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root for given ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: EmailValidation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email validation item for 14 days</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID of email</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: AddAsPendingInvitationToGroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Add as pending invitation to group root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: SendEmailConfirmation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Create and send email confirmation for joining the group</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: RefreshAccountAndGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account and account and group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="PerformWebAction (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: TargetObjectID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Target object id</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: CommandName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Command name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: Owner</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Data owner</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: InformationSources</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Information sources of the page</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: FormSourceNames</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Form source names</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: FormSubmitContent</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Form field collection as-posted</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: ExecuteActualOperation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Execute actual operation</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: RenderPageAfterOperation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>If true, page should be rendered after operation</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="PublishGroupContentToPublicArea (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID of group being published</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: UseWorker</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Use worker as processor</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: CurrentContainerName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group's content container name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: PublicContainerName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group's public container name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>MethodExecuteType: PublishGroupContent</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Do the update page</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="PublishGroupContentToWww (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID of group being published</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: UseWorker</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Use worker as processor</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: CurrentContainerName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group's content container name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: WwwContainerName</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group's www container name</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>MethodExecuteType: PublishGroupContentToWww</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Do the update page</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="RefreshAccountGroupMemberships (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root record</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID to update</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountRootReferences</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account root references</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountLoginGroups</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update login group permissions</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="RemoveMemberFromGroup (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: EmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email address of the member</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>AccountID of the member</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID to remove from</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root for given ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: MemberAccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID of email</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root of member</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: MemberEmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Member email address</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: RemoveMemberFromGroup</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Remove member from group</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: RefreshAccountAndGroupContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account and account and group containers</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UnlinkEmailAddress (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountContainerBeforeGroupRemoval</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account container</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: EmailAddressID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email Address ID within AccountContainer</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRootBeforeGroupRemoval</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root of Collaborator</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: EmailAddress</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email address within the account container</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoots</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group roots for account, having the unlinked email address</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: RemoveGroupMemberships</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Assign collaborator role</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRootAfterGroupRemoval</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root AFTER group removal</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: EmailRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Email root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: RemoveEmailFromAccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Remove email from account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: DeleteEmailRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete email root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified accountcontainer and accountroot</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account container from account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>OperationExecuteType: UpdateAccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account root references</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateAccountContainerFromAccountRoot (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root </TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account container. Create if missing.</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountContainerLogins</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account container logins</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountContainerEmails</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account container emails</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateAccountContainersGroupMembership (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root record</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID to update</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group's group container</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: Group</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group item</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account container</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupSummaryContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group summary container of account</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateGroupSummaryContainerMemberships</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update group summary container memberships</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountContainerMemberships</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account container memberships</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateAccountRootGroupMembership (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root record</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID to update</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountRootGroupMemberships</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update account root group membership</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateAccountRootToReferences (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID to update</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountLogins</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account logins</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountEmails</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account logins</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountToLogins</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete email root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateAccountToEmails</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete email root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateGroupContainersGroupMembership (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root record</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRootsAndContainers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account roots and containers for profile information</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupContainer</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group container in the group</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: UpdateGroupContainerMembership</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Update group container memberships</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: StoreObjects</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Store modified objects</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdateLoginGroupPermissions (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: AccountID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account ID to update</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: AccountRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account root</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: LoginGroupRoots</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Account's group login entries</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: SynchronizeLoginGroupRoots</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Add missing and remove nonexistent login group roots</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="UpdatePageContent (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>VariableType: changedInformation</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Test</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>MethodExecuteType: UpdatePage</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Do the update page</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+        </Content>
+      </Document>
+    </Documents>
+  </Documentations>
+</DocumentationAbstraction>

@@ -20,7 +20,7 @@ namespace AaltoGlobalImpact.OIP
             return accountRoot;
         }
 
-        public static string GetTarget_AccountID(string memberEmailAddress, string accountID)
+        public static string GetTarget_MemberAccountID(string memberEmailAddress, string accountID)
         {
             if(memberEmailAddress != null && accountID != null)
                 throw new NotSupportedException("Both parameters email and accountID not supported");

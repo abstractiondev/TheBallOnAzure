@@ -90,12 +90,12 @@
           <TargetDefinition name="GroupRoot" dataType="TBRGroupRoot" designDesc="Group root for given ID" state="designApproved">
             <Parameter name="GroupID" />
           </TargetDefinition>
-          <TargetDefinition name="AccountID" dataType="string" designDesc="Account ID of email" state="designApproved">
+          <TargetDefinition name="MemberAccountID" dataType="string" designDesc="Account ID of email" state="designApproved">
             <Parameter name="EmailAddress" />
             <Parameter name="AccountID" />
           </TargetDefinition>
           <TargetDefinition name="AccountRoot" dataType="TBRAccountRoot" designDesc="Account root of member" state="designApproved">
-            <Target name="AccountID" />
+            <Target name="MemberAccountID" />
           </TargetDefinition>
           <TargetDefinition name="MemberEmailAddress" dataType="string" designDesc="Member email address" state="designApproved">
             <Parameter name="EmailAddress" />
@@ -111,7 +111,7 @@
           </MethodExecute>
           <OperationExecute name="RefreshAccountAndGroupContainers" targetOperationName="RefreshAccountGroupMemberships" designDesc="Update account and account and group containers" state="designApproved">
             <Target name="GroupRoot" />
-            <Target name="AccountID" />
+            <Target name="MemberAccountID" />
           </OperationExecute>
         </SequentialExecution>
       </Execution>

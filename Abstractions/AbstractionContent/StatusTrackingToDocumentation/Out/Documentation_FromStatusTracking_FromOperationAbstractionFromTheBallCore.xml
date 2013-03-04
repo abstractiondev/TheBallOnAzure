@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<DocumentationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
+  <Documentations>
+    <Documents>
+      <Document name="Status Tracking Document" title="Status Tracking Document">
+        <Content>
+          <Header text="Summary" level="1">
+            <Header text="CreateInvoiceForGroup (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 2</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+          </Header>
+          <Header text="CreateInvoiceForGroup (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: GroupID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: GroupRoot</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Group root</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+        </Content>
+      </Document>
+    </Documents>
+  </Documentations>
+</DocumentationAbstraction>

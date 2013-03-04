@@ -957,14 +957,14 @@
                 </Text>
               </Paragraph>
             </Header>
-            <Header text="Target Definition: AccountID ( EmailAddress, AccountID )" level="2">
+            <Header text="Target Definition: MemberAccountID ( EmailAddress, AccountID )" level="2">
               <Paragraph>
                 <Text styleRef="color:blue;font-weight:bold;font-style:italic">
                   <TextContent>Account ID of email</TextContent>
                 </Text>
               </Paragraph>
             </Header>
-            <Header text="Target Definition: AccountRoot ( AccountID )" level="2">
+            <Header text="Target Definition: AccountRoot ( MemberAccountID )" level="2">
               <Paragraph>
                 <Text styleRef="color:blue;font-weight:bold;font-style:italic">
                   <TextContent>Account root of member</TextContent>
@@ -992,7 +992,7 @@
                 </Text>
               </Paragraph>
             </Header>
-            <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, AccountID )" level="2">
+            <Header text="Operation Call: RefreshAccountAndGroupContainers ( GroupRoot, MemberAccountID )" level="2">
               <Paragraph>
                 <Text styleRef="color:blue;font-weight:bold;font-style:italic">
                   <TextContent>Update account and account and group containers</TextContent>

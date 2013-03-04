@@ -54,6 +54,8 @@
     <Folder Include="Documentation\Out\" />
     <Folder Include="Operation\In\" />
     <Folder Include="Operation\Out\" />
+    <Folder Include="StatusTracking\In\" />
+    <Folder Include="StatusTracking\Out\" />
     <Folder Include="TheBallCore\Out\" />
   </ItemGroup>
   <ItemGroup>
