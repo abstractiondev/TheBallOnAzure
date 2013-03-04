@@ -131,12 +131,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\OIPExternal.config">
-      <Link>OIPExternal.config</Link>
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AzureSupport\AzureSupport.csproj">
       <Project>{33F04EB2-55DE-4539-8E67-152A6057F100}</Project>
       <Name>AzureSupport</Name>
@@ -144,6 +138,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="..\..\..\DeveloperSpecific.config">
+      <Link>DeveloperSpecific.config</Link>
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Properties\PublishProfiles\theballdemo - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\theballdemo - Web Deploy.pubxml" />
   </ItemGroup>
@@ -162,7 +160,7 @@
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>50430</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50430/</IISUrl>
+          <IISUrl>http://localhost:50431/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

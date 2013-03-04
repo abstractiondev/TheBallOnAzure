@@ -20,8 +20,17 @@ namespace TheBallTool
         {
             try
             {
-                string connStr = String.Format("DefaultEndpointsProtocol=http;AccountName=theball;AccountKey={0}",
-                                               args[0]);
+                if (args.Length != 2)
+                {
+                    Console.WriteLine("Usage: TheBallTool.exe <web template root directory> <connectionString>");
+                }
+
+                //string directory = Directory.GetCurrentDirectory();
+                string directory = args[0];
+                string connStr = args[1];
+
+                //string connStr = String.Format("DefaultEndpointsProtocol=http;AccountName=theball;AccountKey={0}",
+                //                               args[0]);
                 //connStr = "UseDevelopmentStorage=true";
                 bool debugMode = false;
 
@@ -33,43 +42,90 @@ namespace TheBallTool
                 if(DataPatcher.DoPatching())
                     return;
 
-                string templateLocation = "livetemplate";
-                string privateSiteLocation = "livesite";
-                string publicSiteLocation = "livepubsite";
-                const string accountNamePart = "oip-account\\";
-                const string publicGroupNamePart = "oip-public\\";
-                const string groupNamePart = "oip-group\\";
-                const string wwwNamePart = "www-public\\";
+                UploadAccountTemplates(directory);
+                //UploadAccountGroupPublicWwwWithCommonFilesUnderRoot(directory);
 
-                string directory = Directory.GetCurrentDirectory();
-                if (directory.EndsWith("\\") == false)
-                    directory = directory + "\\";
-                string[] allFiles =
-                    Directory.GetFiles(directory, "*", SearchOption.AllDirectories).Select(
-                        str => str.Substring(directory.Length)).Where(str => str.StartsWith("theball-") == false).ToArray();
-                string[] groupTemplates =
-                    allFiles.Where(file => file.StartsWith(accountNamePart) == false && file.StartsWith(publicGroupNamePart) == false && file.StartsWith(wwwNamePart) == false).
-                        ToArray();
-                string[] publicGroupTemplates =
-                    allFiles.Where(file => file.StartsWith(accountNamePart) == false && file.StartsWith(groupNamePart) == false && file.StartsWith(wwwNamePart) == false).
-                        ToArray();
-                string[] accountTemplates =
-                    allFiles.Where(file => file.StartsWith(groupNamePart) == false && file.StartsWith(publicGroupNamePart) == false && file.StartsWith(wwwNamePart) == false).
-                        ToArray();
-                string[] wwwTemplates =
-                    allFiles.Where(file => file.StartsWith(groupNamePart) == false && file.StartsWith(publicGroupNamePart) == false && file.StartsWith(accountNamePart) == false).
-                        ToArray();
-                UploadAndMoveUnused(accountTemplates, groupTemplates, publicGroupTemplates, wwwTemplates);
-
-                RenderWebSupport.RefreshAllAccountAndGroupTemplates(true, "AaltoGlobalImpact.OIP.Blog", "AaltoGlobalImpact.OIP.Activity", "AaltoGlobalImpact.OIP.AddressAndLocation",
-                    "AaltoGlobalImpact.OIP.Image", "AaltoGlobalImpact.OIP.ImageGroup", "AaltoGlobalImpact.OIP.Category");
-
-                Console.WriteLine("Starting to sync...");
+                Console.WriteLine("Queued sync... (press enter to continue)");
+                Console.ReadLine();
             } 
                 catch(InvalidDataException ex)
             {
                 Console.WriteLine("Error exit: " + ex.ToString());
             }
+        }
+
+        private static void UploadAccountTemplates(string directory)
+        {
+            if (directory.EndsWith("\\") == false)
+                directory = directory + "\\";
+            string oldDir = Directory.GetCurrentDirectory();
+            try
+            {
+                Directory.SetCurrentDirectory(directory);
+                string[] accountFiles =
+                    Directory.GetFiles(directory, "*", SearchOption.AllDirectories)
+                             .Select(str => str.Substring(directory.Length))
+                             .ToArray();
+                UploadAccountFiles(accountFiles);
+            }
+            finally
+            {
+                Directory.SetCurrentDirectory(oldDir);
+            }
+            RenderWebSupport.RefreshAllAccountAndGroupTemplates(true);
+        }
+
+        /// <summary>
+        /// Uploads multiple parallel templates that share common files in root
+        /// </summary>
+        /// <param name="directory">Root directory containing the account, group, public and www-public templates</param>
+        private static void UploadAccountGroupPublicWwwWithCommonFilesUnderRoot(string directory)
+        {
+            string templateLocation = "livetemplate";
+            string privateSiteLocation = "livesite";
+            string publicSiteLocation = "livepubsite";
+            const string accountNamePart = "oip-account\\";
+            const string publicGroupNamePart = "oip-public\\";
+            const string groupNamePart = "oip-group\\";
+            const string wwwNamePart = "www-public\\";
+
+            if (directory.EndsWith("\\") == false)
+                directory = directory + "\\";
+            string[] allFiles =
+                Directory.GetFiles(directory, "*", SearchOption.AllDirectories).Select(
+                    str => str.Substring(directory.Length)).Where(str => str.StartsWith("theball-") == false).ToArray();
+            string[] groupTemplates =
+                allFiles.Where(
+                    file =>
+                    file.StartsWith(accountNamePart) == false && file.StartsWith(publicGroupNamePart) == false &&
+                    file.StartsWith(wwwNamePart) == false).
+                         ToArray();
+            string[] publicGroupTemplates =
+                allFiles.Where(
+                    file =>
+                    file.StartsWith(accountNamePart) == false && file.StartsWith(groupNamePart) == false &&
+                    file.StartsWith(wwwNamePart) == false).
+                         ToArray();
+            string[] accountTemplates =
+                allFiles.Where(
+                    file =>
+                    file.StartsWith(groupNamePart) == false && file.StartsWith(publicGroupNamePart) == false &&
+                    file.StartsWith(wwwNamePart) == false).
+                         ToArray();
+            string[] wwwTemplates =
+                allFiles.Where(
+                    file =>
+                    file.StartsWith(groupNamePart) == false && file.StartsWith(publicGroupNamePart) == false &&
+                    file.StartsWith(accountNamePart) == false).
+                         ToArray();
+            UploadAndMoveUnused(accountTemplates, groupTemplates, publicGroupTemplates, wwwTemplates);
+
+            RenderWebSupport.RefreshAllAccountAndGroupTemplates(true, "AaltoGlobalImpact.OIP.Blog",
+                                                                "AaltoGlobalImpact.OIP.Activity",
+                                                                "AaltoGlobalImpact.OIP.AddressAndLocation",
+                                                                "AaltoGlobalImpact.OIP.Image",
+                                                                "AaltoGlobalImpact.OIP.ImageGroup",
+                                                                "AaltoGlobalImpact.OIP.Category");
         }
 
         private static void ProcessErrors(bool useWorker)
@@ -104,6 +160,12 @@ namespace TheBallTool
                     envelope = ErrorSupport.RetrieveRetryableEnvelope(out message);
                 }
             }
+        }
+
+        private static void UploadAccountFiles(string[] accountTemplates)
+        {
+            FileSystemSupport.UploadTemplateContent(accountTemplates, TBSystem.CurrSystem,
+                                                    RenderWebSupport.DefaultAccountTemplates, true);
         }
 
         private static void UploadAndMoveUnused(string[] accountTemplates, string[] groupTemplates, string[] publicTemplates, string[] wwwTemplates)

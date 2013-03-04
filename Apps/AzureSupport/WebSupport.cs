@@ -12,9 +12,11 @@ namespace AzureSupport
 
         static string GetContainerName(HttpRequest request)
         {
+            // For the Demo purposes, this is hardcoded; for multi-site-running on same runtime, this MUST be domain-bound
+            return "theballdemo";
             string hostName = request.Url.DnsSafeHost;
             if (hostName == "localhost")
-                hostName = "demooip.aaltoglobalimpact.org";
+                hostName = "theballdemo.realdomain.org";
             return hostName.Replace('.', '-').ToLower();
         }
 

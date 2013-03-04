@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Principal;
@@ -16,11 +17,13 @@ namespace WebInterface
         protected void Application_Start(object sender, EventArgs e)
         {
             string connStr;
-            const string ConnStrFileName = @"C:\users\kalle\work\ConnectionStringStorage\theballconnstr.txt";
+            const string ConnStrFileName = @"C:\users\kalle\work\ConnectionStringStorage\theballdemoconnstr.txt";
             if(File.Exists(ConnStrFileName))
                 connStr = File.ReadAllText(ConnStrFileName);
             else
                 connStr = CloudConfigurationManager.GetSetting("DataConnectionString");
+            if (connStr == null)
+                connStr = "UseDevelopmentStorage=true";
             StorageSupport.InitializeWithConnectionString(connStr);
         }
 

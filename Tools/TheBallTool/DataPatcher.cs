@@ -557,8 +557,8 @@ namespace TheBallTool
             if (skip == false)
                 throw new NotSupportedException("Skip this with debugger");
 
-            InitBlogProfileAndIconOnce();
-            //PatchSubscriptionsToSubmitted();
+            //InitBlogProfileAndIconOnce();
+            PatchSubscriptionsToSubmitted();
 
             //EnsureAndRefreshMasterCollections();
             //ReconnectAccountsMastersAndCollections();

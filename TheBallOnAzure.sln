@@ -20,28 +20,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSupport", "Apps\AzureS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "Apps\ServiceInterface\ServiceInterface.csproj", "{639EF079-5944-480A-BF5B-691B3F133507}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UI", "Apps\WorkerTemplate\CaloomUI\caloomhtml\UI\", "{44F66C2E-D452-4D91-80E2-43474B757EFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionContent", "Abstractions\AbstractionContent\AbstractionContent.csproj", "{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML", "Apps\UI\HTML\", "{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/UI"
-		Debug.AspNetCompiler.PhysicalPath = "Apps\WorkerTemplate\CaloomUI\caloomhtml\UI\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UI\"
+		Debug.AspNetCompiler.VirtualPath = "/HTML"
+		Debug.AspNetCompiler.PhysicalPath = "Apps\UI\HTML\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HTML\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/UI"
-		Release.AspNetCompiler.PhysicalPath = "Apps\WorkerTemplate\CaloomUI\caloomhtml\UI\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UI\"
+		Release.AspNetCompiler.VirtualPath = "/HTML"
+		Release.AspNetCompiler.PhysicalPath = "Apps\UI\HTML\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HTML\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "55969"
-		StartServerOnDebug = "false"
+		VWDPort = "64117"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionContent", "Abstractions\AbstractionContent\AbstractionContent.csproj", "{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,35 +194,6 @@ Global
 		{639EF079-5944-480A-BF5B-691B3F133507}.Staging|Mixed Platforms.Build.0 = Release|Any CPU
 		{639EF079-5944-480A-BF5B-691B3F133507}.Staging|PHP 5.2.ActiveCfg = Release|Any CPU
 		{639EF079-5944-480A-BF5B-691B3F133507}.Staging|x86.ActiveCfg = Release|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Debug|PHP 5.2.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|Any CPU.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|Mixed Platforms.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|PHP 5.2.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Local|x86.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|Any CPU.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|Mixed Platforms.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|PHP 5.2.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Production|x86.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|PHP 5.2.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Release|x86.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|Any CPU.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|Any CPU.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|Mixed Platforms.Build.0 = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|PHP 5.2.ActiveCfg = Debug|Any CPU
-		{44F66C2E-D452-4D91-80E2-43474B757EFC}.Staging|x86.ActiveCfg = Debug|Any CPU
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -254,6 +224,36 @@ Global
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Staging|Mixed Platforms.Build.0 = Release|Any CPU
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Staging|PHP 5.2.ActiveCfg = Release|Any CPU
 		{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}.Staging|x86.ActiveCfg = Release|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|PHP 5.2.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|PHP 5.2.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Local|x86.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|PHP 5.2.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Production|x86.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|PHP 5.2.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Release|x86.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|PHP 5.2.ActiveCfg = Debug|Any CPU
+		{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}.Staging|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,7 +263,6 @@ Global
 		{27C6E2F3-6016-4E1D-81A0-01171A14870C} = {C4897F31-5833-49AA-B9DC-703FC5D8C0E1}
 		{33F04EB2-55DE-4539-8E67-152A6057F100} = {C4897F31-5833-49AA-B9DC-703FC5D8C0E1}
 		{639EF079-5944-480A-BF5B-691B3F133507} = {C4897F31-5833-49AA-B9DC-703FC5D8C0E1}
-		{44F66C2E-D452-4D91-80E2-43474B757EFC} = {C4897F31-5833-49AA-B9DC-703FC5D8C0E1}
 		{5377CB63-1979-4596-A1F4-DF9417C9B037} = {89AD2678-AAC2-4108-B018-B6EC19A4A042}
 	EndGlobalSection
 EndGlobal

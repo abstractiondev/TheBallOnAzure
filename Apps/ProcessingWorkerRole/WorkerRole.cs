@@ -151,7 +151,7 @@ namespace ProcessingWorkerRole
         }
 
         protected string CurrWorkerID { get; private set; }
-        public const string CURRENT_HARDCODED_CONTAINER_NAME = "demooip-aaltoglobalimpact-org";
+        public const string CURRENT_HARDCODED_CONTAINER_NAME = "theballdemo";
 
         public override bool OnStart()
         {

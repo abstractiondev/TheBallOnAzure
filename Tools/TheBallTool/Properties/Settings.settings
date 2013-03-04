@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="CurrentActiveContainerName" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">demooip-aaltoglobalimpact-org</Value>
+      <Value Profile="(Default)">theballdemo</Value>
     </Setting>
   </Settings>
 </SettingsFile>

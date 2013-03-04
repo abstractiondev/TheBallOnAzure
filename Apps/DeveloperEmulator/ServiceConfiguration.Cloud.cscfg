@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ServiceConfiguration serviceName="AzureConfiguration" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-10.1.8">
   <Role name="WorkerRoleAccelerator.Core">
-    <Instances count="1" />
+    <Instances count="2" />
     <ConfigurationSettings>
       <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="WorkerRoleEntryPointContainerName" value="worker-role-accelerator" />
+      <Setting name="WorkerRoleEntryPointContainerName" value="theballdemo-worker-role-accelerator" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="AmazonSESAccessInfo" value="" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />

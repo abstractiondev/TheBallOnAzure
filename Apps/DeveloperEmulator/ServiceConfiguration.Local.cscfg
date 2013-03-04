@@ -4,7 +4,7 @@
     <Instances count="2" />
     <ConfigurationSettings>
       <Setting name="DataConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="WorkerRoleEntryPointContainerName" value="worker-role-accelerator" />
+      <Setting name="WorkerRoleEntryPointContainerName" value="theballdemo-worker-role-accelerator" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="AmazonSESAccessInfo" value="" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
