@@ -7,6 +7,7 @@ using System.Web;
 using AaltoGlobalImpact.OIP;
 using Amazon.IdentityManagement.Model;
 using Microsoft.WindowsAzure.StorageClient;
+using TheBall.CORE;
 
 namespace TheBall
 {
@@ -182,5 +183,20 @@ namespace TheBall
             }
         }
 
+        private IContainerOwner _currentOwner;
+        public IContainerOwner CurrentOwner
+        {
+            get { 
+                if (_currentOwner == null)  
+                    throw new NotSupportedException("Current owner needs to be initialized before using");
+                return _currentOwner;
+            }
+            set
+            {
+                if(_currentOwner != null)
+                    throw new NotSupportedException("Current owner can only be set once");
+                _currentOwner = value;
+            }
+        }
     }
 }

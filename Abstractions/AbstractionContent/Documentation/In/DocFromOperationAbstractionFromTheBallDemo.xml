@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<DocumentationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
+  <Documentations>
+    <Documents>
+      <Document name="Operations (OperationAbstractionFromTheBallDemo)" title="Operations (OperationAbstractionFromTheBallDemo)">
+        <Content>
+          <Header text="CreateHelloWorld (HelloText)" level="1">
+            <Header text="Specifications" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Create invoice for group</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="Parameters" level="2">
+              <Paragraph>
+                <Table>
+                  <Columns>
+                    <Column name="Parameter" />
+                    <Column name="DataType" />
+                    <Column name="Description" />
+                  </Columns>
+                  <Rows>
+                    <Row>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>HelloText</TextContent>
+                      </ColumnData>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>string</TextContent>
+                      </ColumnData>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>Hello Text</TextContent>
+                      </ColumnData>
+                    </Row>
+                  </Rows>
+                </Table>
+              </Paragraph>
+            </Header>
+            <Header text="Target Definition: CreatedObject" level="2">
+              <Paragraph>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Create new object as target</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="Method Call: SetHelloWorldText ( CreatedObject, HelloText )" level="2">
+              <Paragraph>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Set Hello World text to object</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="Method Call: StoreObject ( CreatedObject )" level="2">
+              <Paragraph>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Store object</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+          </Header>
+        </Content>
+      </Document>
+    </Documents>
+  </Documentations>
+</DocumentationAbstraction>

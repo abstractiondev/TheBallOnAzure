@@ -40,22 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Operation\Out\OperationAbstractionFromOIPBallInstance.designer.cs" />
-    <None Include="Operation\Out\OperationAbstractionFromTheBallCore.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="absbuilder\In\Content_v1_0\AbstractionBuilderContent_v1_0.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Operation\In\OperationAbstractionFromOIPBallInstance.xml" />
-    <Content Include="Operation\In\OperationAbstractionFromTheBallCore.xml" />
+    <Content Include="TheBallCore\In\Content_v1_0\TheBallDemo.xml" />
     <Content Include="TheBallCore\In\Content_v1_0\OIPBallInstance.xml" />
     <Content Include="TheBallCore\In\Content_v1_0\TheBallCore.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documentation\In\" />
     <Folder Include="Documentation\Out\" />
+    <Folder Include="Operation\In\" />
+    <Folder Include="Operation\Out\" />
     <Folder Include="TheBallCore\Out\" />
   </ItemGroup>
   <ItemGroup>

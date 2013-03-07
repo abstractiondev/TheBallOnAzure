@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<StatusTrackingAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/StatusTracking_v1_0.xsd">
+  <StatusItems scopeName="TheBall.DEMO">
+    <StatusItem name="CreateHelloWorld_HelloText" displayName="VariableType: HelloText" description="Hello Text">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="CreateHelloWorld_CreatedObject" displayName="TargetDefinitionType: CreatedObject" description="Create new object as target">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="CreateHelloWorld_SetHelloWorldText" displayName="MethodExecuteType: SetHelloWorldText" description="Set Hello World text to object">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="CreateHelloWorld_StoreObject" displayName="MethodExecuteType: StoreObject" description="Store object">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+  </StatusItems>
+  <Groups>
+    <Group name="CreateHelloWorld">
+      <ItemRef itemName="CreateHelloWorld_HelloText" />
+      <ItemRef itemName="CreateHelloWorld_CreatedObject" />
+      <ItemRef itemName="CreateHelloWorld_SetHelloWorldText" />
+      <ItemRef itemName="CreateHelloWorld_StoreObject" />
+    </Group>
+  </Groups>
+</StatusTrackingAbstraction>

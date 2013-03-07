@@ -54,12 +54,20 @@
     <Compile Include="..\..\Abstractions\AbstractionContent\Operation\Out\OperationAbstractionFromOIPBallInstance.designer.cs">
       <Link>Abstractions\OperationAbstractionFromOIPBallInstance.designer.cs</Link>
     </Compile>
+    <Compile Include="..\..\Abstractions\AbstractionContent\Operation\Out\OperationAbstractionFromTheBallDemo.designer.cs">
+      <Link>Abstractions\OperationAbstractionFromTheBallDemo.designer.cs</Link>
+    </Compile>
     <Compile Include="..\..\Abstractions\AbstractionContent\TheBallCore\Out\OIPBallInstance.designer.cs">
       <Link>Abstractions\OIPBallInstance.designer.cs</Link>
     </Compile>
     <Compile Include="..\..\Abstractions\AbstractionContent\TheBallCore\Out\TheBallCore.designer.cs">
       <Link>Abstractions\TheBallCore.designer.cs</Link>
     </Compile>
+    <Compile Include="..\..\Abstractions\AbstractionContent\TheBallCore\Out\TheBallDemo.designer.cs">
+      <Link>Abstractions\TheBallDemo.designer.cs</Link>
+    </Compile>
+    <Compile Include="Core\OwnerInitializer.cs" />
+    <Compile Include="Operation\CreateHelloWorldImplementation.cs" />
     <Compile Include="Operation\ClearAdditionalMediaFormatsImplementation.cs" />
     <Compile Include="Operation\CreateAdditionalMediaFormatsImplementation.cs" />
     <Compile Include="Operation\DeleteInformationObjectImplementation.cs" />
@@ -109,10 +117,11 @@
     <Compile Include="Partials\AddCategoryInfo.cs" />
     <Compile Include="Partials\CreateGroupInfo.cs" />
     <Compile Include="DefaultViewSupport.cs" />
-    <Compile Include="Partials\ExtIInformationObject.cs" />
     <Compile Include="Partials\Group.cs" />
     <Compile Include="Partials\GroupContainer.cs" />
     <Compile Include="Partials\IAddOperationProvider.cs" />
+    <Compile Include="Core\IInformationCollection.cs" />
+    <Compile Include="Core\IInformationObject.cs" />
     <Compile Include="Partials\Image.cs" />
     <Compile Include="Partials\ImageGroup.cs" />
     <Compile Include="Partials\InformationSource.cs" />

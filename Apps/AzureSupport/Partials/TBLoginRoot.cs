@@ -1,5 +1,6 @@
 ﻿using System;
 using TheBall;
+using TheBall.CORE;
 
 namespace AaltoGlobalImpact.OIP
 {
@@ -40,9 +41,8 @@ namespace AaltoGlobalImpact.OIP
                 RenderWebSupport.RefreshAccountTemplates(accountRoot.ID, useBackgroundWorker);
                 if(isAccountRequest)
                 {
-                    accountRoot.Account.EnsureMasterCollections();
-                    accountRoot.Account.RefreshMasterCollections();
-                    accountRoot.Account.ReconnectMastersAndCollectionsForOwner();
+
+                    accountRoot.Account.InitializeAndConnectMastersAndCollections();
                 }
             }
             loginRoot = RetrieveFromDefaultLocation(loginRootID);

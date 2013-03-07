@@ -46,8 +46,9 @@ namespace TheBallTool
                 UploadAccountTemplates(directory);
                 //UploadAccountGroupPublicWwwWithCommonFilesUnderRoot(directory);
 
-                Console.WriteLine("Queued sync... (press enter to continue)");
-                Console.ReadLine();
+                Console.WriteLine("Queued sync...");
+                //Console.WriteLine("Queued sync... (press enter to continue)");
+                //Console.ReadLine();
             } 
                 catch(InvalidDataException ex)
             {

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<OperationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
+  <Operations codeNamespace="TheBall.DEMO">
+    <Operation name="CreateHelloWorld">
+      <OperationSpec>
+        <Description>Create invoice for group</Description>
+      </OperationSpec>
+      <Parameters>
+        <Parameter name="HelloText" dataType="string" designDesc="Hello Text" state="designApproved" />
+      </Parameters>
+      <Execution>
+        <SequentialExecution>
+          <TargetDefinition name="CreatedObject" dataType="HelloWorldObject" designDesc="Create new object as target" state="designApproved" />
+          <MethodExecute name="SetHelloWorldText" designDesc="Set Hello World text to object" state="designApproved">
+            <Parameter name="HelloText" />
+            <Target name="CreatedObject" />
+          </MethodExecute>
+          <MethodExecute name="StoreObject" designDesc="Store object" state="designApproved">
+            <Target name="CreatedObject" />
+          </MethodExecute>
+        </SequentialExecution>
+      </Execution>
+    </Operation>
+  </Operations>
+</OperationAbstraction>
