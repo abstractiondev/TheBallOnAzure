@@ -23,6 +23,7 @@ namespace TheBallTool
                 if (args.Length != 2)
                 {
                     Console.WriteLine("Usage: TheBallTool.exe <web template root directory> <connectionString>");
+                    return;
                 }
 
                 //string directory = Directory.GetCurrentDirectory();
@@ -61,10 +62,11 @@ namespace TheBallTool
             string oldDir = Directory.GetCurrentDirectory();
             try
             {
+                DirectoryInfo directoryInfo = new DirectoryInfo(directory);
                 Directory.SetCurrentDirectory(directory);
                 string[] accountFiles =
-                    Directory.GetFiles(directory, "*", SearchOption.AllDirectories)
-                             .Select(str => str.Substring(directory.Length))
+                    Directory.GetFiles(".", "*", SearchOption.AllDirectories)
+                             .Select(str => str.Substring(2)) // Removing .\ from beginning
                              .ToArray();
                 UploadAccountFiles(accountFiles);
             }
