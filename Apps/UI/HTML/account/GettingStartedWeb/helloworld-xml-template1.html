@@ -1,0 +1,20 @@
+<div>
+{#HelloWorldCollection}{#CollectionContent}
+<table border="1"><tr><th>ID</th><th>ObjectName</th><th>HelloText</th></tr>
+{#HelloWorldObject}
+<tr>
+    <td>{ID}</td><td>{Name}</td><td>{HelloText}</td>
+</tr>
+{/HelloWorldObject}
+</table>
+    {#HelloWorldObject}
+    <form method="post">
+        <input type="hidden" name="RootSourceAction" value="DeleteHelloWorld" />
+        <input type="hidden" name="HelloWorldID" value="{ID}" />
+        {>dynamicaddtemp /}
+        <input type="submit" value="Delete Hello World" />
+    </form>
+    {/HelloWorldObject}
+{/CollectionContent}
+{/HelloWorldCollection}
+</div>

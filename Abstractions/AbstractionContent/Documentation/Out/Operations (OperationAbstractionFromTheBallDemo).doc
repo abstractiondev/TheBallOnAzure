@@ -231,7 +231,7 @@ div.WordSection1
 		<h1>CreateHelloWorld (HelloText)</h1>
 		<h2>Specifications</h2>
 		<p>		<div class="MsoNormal" >
-		Create invoice for group
+		Create Hello World with given text
 		</div>
 		</p><h2>Parameters</h2>
 		<p><table border="1">
@@ -265,6 +265,40 @@ div.WordSection1
 		</p><h2>Method Call: StoreObject ( CreatedObject )</h2>
 		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Store object
+		</div>
+		</p><h1>DeleteHelloWorld (ID)</h1>
+		<h2>Specifications</h2>
+		<p>		<div class="MsoNormal" >
+		Delete Hello World
+		</div>
+		</p><h2>Parameters</h2>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		ID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		string
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Hello World ID
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h2>Target Definition: ObjectToDelete ( ID )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Get deleted object
+		</div>
+		</p><h2>Method Call: DeleteObject ( ObjectToDelete )</h2>
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete Object
 		</div>
 		</p></div>
 

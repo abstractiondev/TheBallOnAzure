@@ -22,8 +22,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "Apps\Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionContent", "Abstractions\AbstractionContent\AbstractionContent.csproj", "{3A9EEC93-0E0B-4740-853F-ACD9397E3E46}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML", "Apps\UI\HTML\", "{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML", "http://localhost:64117", "{7B9C70D6-A5CB-41D2-BC49-BEF88B836446}"
 	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/HTML"
 		Debug.AspNetCompiler.PhysicalPath = "Apps\UI\HTML\"
@@ -39,7 +40,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML", "Apps\UI\HTML\", "{7
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "64117"
+		SlnRelativePath = "Apps\UI\HTML\"
+		StartServerOnDebug = "false"
 	EndProjectSection
 EndProject
 Global

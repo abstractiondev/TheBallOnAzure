@@ -1,0 +1,39 @@
+﻿<HelloWorldCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TheBall.Demo">
+  <CollectionContent>
+    <HelloWorldObject>
+      <HelloText>Hello Demo again!</HelloText>
+      <ID>abab3d80-4918-495a-931c-3e48b3ec54e1</ID>
+      <MasterETag i:nil="true" />
+      <Name>HelloWorldObject</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>acc/43d8183f-2aeb-44ae-afca-2725c53bd60d/TheBall.Demo/HelloWorldObject/abab3d80-4918-495a-931c-3e48b3ec54e1</RelativeLocation>
+      <SemanticDomainName>TheBall.Demo</SemanticDomainName>
+    </HelloWorldObject>
+    <HelloWorldObject>
+      <HelloText>Hello Demo!</HelloText>
+      <ID>bf51c95f-bb16-4fbd-b532-727ef06ace8f</ID>
+      <MasterETag i:nil="true" />
+      <Name>HelloWorldObject</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>acc/43d8183f-2aeb-44ae-afca-2725c53bd60d/TheBall.Demo/HelloWorldObject/bf51c95f-bb16-4fbd-b532-727ef06ace8f</RelativeLocation>
+      <SemanticDomainName>TheBall.Demo</SemanticDomainName>
+    </HelloWorldObject>
+    <HelloWorldObject>
+      <HelloText>Hello Demo still once!</HelloText>
+      <ID>f9b847aa-322e-4e62-9aae-2125b9299500</ID>
+      <MasterETag i:nil="true" />
+      <Name>HelloWorldObject</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <RelativeLocation>acc/43d8183f-2aeb-44ae-afca-2725c53bd60d/TheBall.Demo/HelloWorldObject/f9b847aa-322e-4e62-9aae-2125b9299500</RelativeLocation>
+      <SemanticDomainName>TheBall.Demo</SemanticDomainName>
+    </HelloWorldObject>
+  </CollectionContent>
+  <ID>3f1c8b2e-16d7-4395-9ae7-08f4e7d02298</ID>
+  <IsCollectionFiltered>false</IsCollectionFiltered>
+  <MasterETag i:nil="true" />
+  <Name>HelloWorldCollection</Name>
+  <OrderFilterIDList xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>acc/43d8183f-2aeb-44ae-afca-2725c53bd60d/TheBall.Demo/HelloWorldCollection/MasterCollection</RelativeLocation>
+  <SemanticDomainName>TheBall.Demo</SemanticDomainName>
+</HelloWorldCollection>

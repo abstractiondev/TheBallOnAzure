@@ -1,12 +1,12 @@
  
 
 
-using DOM=TheBall.DEMO;
+using DOM=TheBall.Demo;
 
 namespace TheBall.CORE {
 	public static partial class OwnerInitializer
 	{
-		private static void DOMAININIT_TheBall_DEMO(IContainerOwner owner)
+		private static void DOMAININIT_TheBall_Demo(IContainerOwner owner)
 		{
 			DOM.DomainInformationSupport.EnsureMasterCollections(owner);
 			DOM.DomainInformationSupport.RefreshMasterCollections(owner);
@@ -15,7 +15,7 @@ namespace TheBall.CORE {
 }
 
 
-namespace TheBall.DEMO { 
+namespace TheBall.Demo { 
 		using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -65,7 +65,7 @@ using TheBall.CORE;
 				{
 					this.ID = Guid.NewGuid().ToString();
 				    this.OwnerID = StorageSupport.ActiveOwnerID;
-				    this.SemanticDomainName = "TheBall.DEMO";
+				    this.SemanticDomainName = "TheBall.Demo";
 				    this.Name = "HelloWorldObject";
 					RelativeLocation = GetRelativeLocationFromID(ID);
 				}
@@ -73,7 +73,7 @@ using TheBall.CORE;
 				public static IInformationObject[] RetrieveCollectionFromOwnerContent(IContainerOwner owner)
 				{
 					//string contentTypeName = ""; // SemanticDomainName + "." + Name
-					string contentTypeName = "TheBall.DEMO/HelloWorldObject/";
+					string contentTypeName = "TheBall.Demo/HelloWorldObject/";
 					List<IInformationObject> informationObjects = new List<IInformationObject>();
 					var blobListing = StorageSupport.GetContentBlobListing(owner, contentType: contentTypeName);
 					foreach(CloudBlockBlob blob in blobListing)
@@ -88,7 +88,7 @@ using TheBall.CORE;
 
                 public static string GetRelativeLocationFromID(string id)
                 {
-                    return Path.Combine("TheBall.DEMO", "HelloWorldObject", id).Replace("\\", "/");
+                    return Path.Combine("TheBall.Demo", "HelloWorldObject", id).Replace("\\", "/");
                 }
 
 				public void UpdateRelativeLocationFromID()
@@ -136,15 +136,15 @@ using TheBall.CORE;
 
 				public static HelloWorldObject RetrieveFromOwnerContent(IContainerOwner containerOwner, string contentName)
 				{
-					// var result = HelloWorldObject.RetrieveHelloWorldObject("Content/TheBall.DEMO/HelloWorldObject/" + contentName, containerOwner);
-					var result = HelloWorldObject.RetrieveHelloWorldObject("TheBall.DEMO/HelloWorldObject/" + contentName, containerOwner);
+					// var result = HelloWorldObject.RetrieveHelloWorldObject("Content/TheBall.Demo/HelloWorldObject/" + contentName, containerOwner);
+					var result = HelloWorldObject.RetrieveHelloWorldObject("TheBall.Demo/HelloWorldObject/" + contentName, containerOwner);
 					return result;
 				}
 
 				public void SetLocationAsOwnerContent(IContainerOwner containerOwner, string contentName)
                 {
-                    // RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "Content/TheBall.DEMO/HelloWorldObject/" + contentName);
-                    RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "TheBall.DEMO/HelloWorldObject/" + contentName);
+                    // RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "Content/TheBall.Demo/HelloWorldObject/" + contentName);
+                    RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "TheBall.Demo/HelloWorldObject/" + contentName);
                 }
 
 				partial void DoInitializeDefaultSubscribers(IContainerOwner owner);
@@ -279,7 +279,7 @@ using TheBall.CORE;
 
 				public static string GetRelativeLocationAsMetadataTo(string masterRelativeLocation)
 				{
-					return Path.Combine("TheBall.DEMO", "HelloWorldObject", masterRelativeLocation + ".metadata").Replace("\\", "/"); 
+					return Path.Combine("TheBall.Demo", "HelloWorldObject", masterRelativeLocation + ".metadata").Replace("\\", "/"); 
 				}
 
 				public void SetLocationRelativeToContentRoot(string referenceLocation, string sourceName)
@@ -293,7 +293,7 @@ using TheBall.CORE;
                     if (String.IsNullOrEmpty(sourceName))
                         sourceName = "default";
                     string contentRootLocation = StorageSupport.GetContentRootLocation(referenceLocation);
-                    relativeLocation = Path.Combine(contentRootLocation, "TheBall.DEMO", "HelloWorldObject", sourceName).Replace("\\", "/");
+                    relativeLocation = Path.Combine(contentRootLocation, "TheBall.Demo", "HelloWorldObject", sourceName).Replace("\\", "/");
                     return relativeLocation;
                 }
 
@@ -427,7 +427,7 @@ using TheBall.CORE;
 				{
 					this.ID = Guid.NewGuid().ToString();
 				    this.OwnerID = StorageSupport.ActiveOwnerID;
-				    this.SemanticDomainName = "TheBall.DEMO";
+				    this.SemanticDomainName = "TheBall.Demo";
 				    this.Name = "HelloWorldCollection";
 					RelativeLocation = GetRelativeLocationFromID(ID);
 				}
@@ -435,7 +435,7 @@ using TheBall.CORE;
 				public static IInformationObject[] RetrieveCollectionFromOwnerContent(IContainerOwner owner)
 				{
 					//string contentTypeName = ""; // SemanticDomainName + "." + Name
-					string contentTypeName = "TheBall.DEMO/HelloWorldCollection/";
+					string contentTypeName = "TheBall.Demo/HelloWorldCollection/";
 					List<IInformationObject> informationObjects = new List<IInformationObject>();
 					var blobListing = StorageSupport.GetContentBlobListing(owner, contentType: contentTypeName);
 					foreach(CloudBlockBlob blob in blobListing)
@@ -450,7 +450,7 @@ using TheBall.CORE;
 
                 public static string GetRelativeLocationFromID(string id)
                 {
-                    return Path.Combine("TheBall.DEMO", "HelloWorldCollection", id).Replace("\\", "/");
+                    return Path.Combine("TheBall.Demo", "HelloWorldCollection", id).Replace("\\", "/");
                 }
 
 				public void UpdateRelativeLocationFromID()
@@ -498,15 +498,15 @@ using TheBall.CORE;
 
 				public static HelloWorldCollection RetrieveFromOwnerContent(IContainerOwner containerOwner, string contentName)
 				{
-					// var result = HelloWorldCollection.RetrieveHelloWorldCollection("Content/TheBall.DEMO/HelloWorldCollection/" + contentName, containerOwner);
-					var result = HelloWorldCollection.RetrieveHelloWorldCollection("TheBall.DEMO/HelloWorldCollection/" + contentName, containerOwner);
+					// var result = HelloWorldCollection.RetrieveHelloWorldCollection("Content/TheBall.Demo/HelloWorldCollection/" + contentName, containerOwner);
+					var result = HelloWorldCollection.RetrieveHelloWorldCollection("TheBall.Demo/HelloWorldCollection/" + contentName, containerOwner);
 					return result;
 				}
 
 				public void SetLocationAsOwnerContent(IContainerOwner containerOwner, string contentName)
                 {
-                    // RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "Content/TheBall.DEMO/HelloWorldCollection/" + contentName);
-                    RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "TheBall.DEMO/HelloWorldCollection/" + contentName);
+                    // RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "Content/TheBall.Demo/HelloWorldCollection/" + contentName);
+                    RelativeLocation = StorageSupport.GetBlobOwnerAddress(containerOwner, "TheBall.Demo/HelloWorldCollection/" + contentName);
                 }
 
 				partial void DoInitializeDefaultSubscribers(IContainerOwner owner);
@@ -641,7 +641,7 @@ using TheBall.CORE;
 
 				public static string GetRelativeLocationAsMetadataTo(string masterRelativeLocation)
 				{
-					return Path.Combine("TheBall.DEMO", "HelloWorldCollection", masterRelativeLocation + ".metadata").Replace("\\", "/"); 
+					return Path.Combine("TheBall.Demo", "HelloWorldCollection", masterRelativeLocation + ".metadata").Replace("\\", "/"); 
 				}
 
 				public void SetLocationRelativeToContentRoot(string referenceLocation, string sourceName)
@@ -655,7 +655,7 @@ using TheBall.CORE;
                     if (String.IsNullOrEmpty(sourceName))
                         sourceName = "default";
                     string contentRootLocation = StorageSupport.GetContentRootLocation(referenceLocation);
-                    relativeLocation = Path.Combine(contentRootLocation, "TheBall.DEMO", "HelloWorldCollection", sourceName).Replace("\\", "/");
+                    relativeLocation = Path.Combine(contentRootLocation, "TheBall.Demo", "HelloWorldCollection", sourceName).Replace("\\", "/");
                     return relativeLocation;
                 }
 
@@ -730,7 +730,7 @@ using TheBall.CORE;
 
 				public static string GetMasterCollectionLocation(IContainerOwner owner)
 				{
-					return StorageSupport.GetBlobOwnerAddress(owner, "TheBall.DEMO/HelloWorldCollection/" + "MasterCollection");
+					return StorageSupport.GetBlobOwnerAddress(owner, "TheBall.Demo/HelloWorldCollection/" + "MasterCollection");
 				}
 
 

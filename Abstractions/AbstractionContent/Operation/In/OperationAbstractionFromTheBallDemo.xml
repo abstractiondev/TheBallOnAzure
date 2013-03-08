@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <OperationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
-  <Operations codeNamespace="TheBall.DEMO">
+  <Operations codeNamespace="TheBall.Demo">
     <Operation name="CreateHelloWorld">
       <OperationSpec>
-        <Description>Create invoice for group</Description>
+        <Description>Create Hello World with given text</Description>
       </OperationSpec>
       <Parameters>
         <Parameter name="HelloText" dataType="string" designDesc="Hello Text" state="designApproved" />
@@ -17,6 +17,24 @@
           </MethodExecute>
           <MethodExecute name="StoreObject" designDesc="Store object" state="designApproved">
             <Target name="CreatedObject" />
+          </MethodExecute>
+        </SequentialExecution>
+      </Execution>
+    </Operation>
+    <Operation name="DeleteHelloWorld">
+      <OperationSpec>
+        <Description>Delete Hello World</Description>
+      </OperationSpec>
+      <Parameters>
+        <Parameter name="ID" dataType="string" designDesc="Hello World ID" state="designApproved" />
+      </Parameters>
+      <Execution>
+        <SequentialExecution>
+          <TargetDefinition name="ObjectToDelete" dataType="HelloWorldObject" designDesc="Get deleted object" state="designApproved">
+            <Parameter name="ID" />
+          </TargetDefinition>
+          <MethodExecute name="DeleteObject" designDesc="Delete Object" state="designApproved">
+            <Target name="ObjectToDelete" />
           </MethodExecute>
         </SequentialExecution>
       </Execution>

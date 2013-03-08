@@ -1,6 +1,6 @@
 using TheBall.CORE;
 
-namespace TheBall.DEMO
+namespace TheBall.Demo
 {
     public class CreateHelloWorldImplementation
     {

@@ -66,6 +66,7 @@
     <Compile Include="..\..\Abstractions\AbstractionContent\TheBallCore\Out\TheBallDemo.designer.cs">
       <Link>Abstractions\TheBallDemo.designer.cs</Link>
     </Compile>
+    <Compile Include="Operation\DeleteHelloWorldImplementation.cs" />
     <Compile Include="Core\OwnerInitializer.cs" />
     <Compile Include="Operation\CreateHelloWorldImplementation.cs" />
     <Compile Include="Operation\ClearAdditionalMediaFormatsImplementation.cs" />

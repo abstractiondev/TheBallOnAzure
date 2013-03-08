@@ -363,7 +363,8 @@ namespace TheBall
                 string[] blobs = SubscribeSupport.GetChainRequestList(lockedOwner);
                 var chainContent = blobs.Select(blob => StorageSupport.RetrieveInformation(blob, typeof(SubscriptionChainRequestContent))).Cast<SubscriptionChainRequestContent>().ToArray();
                 // Updated the timeout to be half an hour instead of 10 minutes
-                const double invalidSubscriptionSubmissionTimeInSeconds = 1800;
+                // For DEMO added the timeout as one day
+                const double invalidSubscriptionSubmissionTimeInSeconds = 3600 * 24;
                 if (chainContent.Any(item => item.SubmitTime < DateTime.UtcNow.AddSeconds(-invalidSubscriptionSubmissionTimeInSeconds)))
                     return false;
                 WorkerSupport.ExecuteSubscriptionChains(chainContent);

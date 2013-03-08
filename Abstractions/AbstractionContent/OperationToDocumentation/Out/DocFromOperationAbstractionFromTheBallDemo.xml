@@ -8,7 +8,7 @@
             <Header text="Specifications" level="2">
               <Paragraph>
                 <Text>
-                  <TextContent>Create invoice for group</TextContent>
+                  <TextContent>Create Hello World with given text</TextContent>
                 </Text>
               </Paragraph>
             </Header>
@@ -54,6 +54,53 @@
               <Paragraph>
                 <Text styleRef="color:blue;font-weight:bold;font-style:italic">
                   <TextContent>Store object</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+          </Header>
+          <Header text="DeleteHelloWorld (ID)" level="1">
+            <Header text="Specifications" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Delete Hello World</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="Parameters" level="2">
+              <Paragraph>
+                <Table>
+                  <Columns>
+                    <Column name="Parameter" />
+                    <Column name="DataType" />
+                    <Column name="Description" />
+                  </Columns>
+                  <Rows>
+                    <Row>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>ID</TextContent>
+                      </ColumnData>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>string</TextContent>
+                      </ColumnData>
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                        <TextContent>Hello World ID</TextContent>
+                      </ColumnData>
+                    </Row>
+                  </Rows>
+                </Table>
+              </Paragraph>
+            </Header>
+            <Header text="Target Definition: ObjectToDelete ( ID )" level="2">
+              <Paragraph>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Get deleted object</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="Method Call: DeleteObject ( ObjectToDelete )" level="2">
+              <Paragraph>
+                <Text styleRef="color:blue;font-weight:bold;font-style:italic">
+                  <TextContent>Delete Object</TextContent>
                 </Text>
               </Paragraph>
             </Header>

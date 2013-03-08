@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 using System.Drawing;
 using System.IO;
 
-		namespace TheBall.DEMO { 
+		namespace TheBall.Demo { 
 				public class CreateHelloWorldParameters 
 		{
 				public string HelloText ;
@@ -24,4 +24,21 @@ using System.IO;
 				CreateHelloWorldImplementation.ExecuteMethod_StoreObject(CreatedObject);		
 				}
 				}
-		 } 
+				public class DeleteHelloWorldParameters 
+		{
+				public string ID ;
+				}
+		
+		public class DeleteHelloWorld 
+		{
+				private static void PrepareParameters(DeleteHelloWorldParameters parameters)
+		{
+					}
+				public static void Execute(DeleteHelloWorldParameters parameters)
+		{
+						PrepareParameters(parameters);
+					HelloWorldObject ObjectToDelete = DeleteHelloWorldImplementation.GetTarget_ObjectToDelete(parameters.ID);	
+				DeleteHelloWorldImplementation.ExecuteMethod_DeleteObject(ObjectToDelete);		
+				}
+				}
+		} 

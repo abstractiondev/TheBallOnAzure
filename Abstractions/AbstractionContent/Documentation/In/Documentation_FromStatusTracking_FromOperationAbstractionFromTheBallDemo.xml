@@ -2,13 +2,20 @@
 <DocumentationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
   <Documentations>
     <Documents>
-      <Document name="Status Tracking Document (TheBall.DEMO)" title="Status Tracking Document (TheBall.DEMO)">
+      <Document name="Status Tracking Document (TheBall.Demo)" title="Status Tracking Document (TheBall.Demo)">
         <Content>
           <Header text="Summary" level="1">
             <Header text="CreateHelloWorld (0 %)" level="2">
               <Paragraph>
                 <Text>
                   <TextContent>Being implemented 4</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+            <Header text="DeleteHelloWorld (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Being implemented 3</TextContent>
                 </Text>
               </Paragraph>
             </Header>
@@ -64,6 +71,52 @@
                     </ColumnData>
                     <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>Store object</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+          <Header text="DeleteHelloWorld (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>VariableType: ID</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Hello World ID</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>TargetDefinitionType: ObjectToDelete</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Get deleted object</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>MethodExecuteType: DeleteObject</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Delete Object</TextContent>
                     </ColumnData>
                   </Row>
                 </Rows>

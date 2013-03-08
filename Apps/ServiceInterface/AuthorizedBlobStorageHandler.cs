@@ -188,6 +188,8 @@ namespace WebInterface
                 if (TBCollaboratorRole.HasCollaboratorRights(role) == false)
                     throw new SecurityException("Role '" + role + "' is not authorized to do changing POST requests to web interface");
                 HandleOwnerPostRequest(containerOwner, context, contentPath);
+                context.Response.Redirect(context.Request.Url.ToString(), true);
+                return;
             }
             HandleOwnerGetRequest(containerOwner, context, contentPath);
         }
@@ -205,15 +207,26 @@ namespace WebInterface
             string objectFieldID = form["ObjectFieldID"];
 
             CloudBlob webPageBlob = StorageSupport.CurrActiveContainer.GetBlob(contentPath, containerOwner);
-            InformationSourceCollection sources = webPageBlob.GetBlobInformationSources();
-            if (sources == null)
-                throw new InvalidDataException("Postback to page with no information sources defined - where there should be");
+            bool isRenderedPage = webPageBlob.GetBlobInformationObjectType() ==
+                                  StorageSupport.InformationType_RenderedWebPage;
+            InformationSourceCollection sources = null;
+            if (isRenderedPage)
+            {
+                sources = webPageBlob.GetBlobInformationSources();
+                if (sources == null)
+                    throw new InvalidDataException(
+                        "Postback to page with no information sources defined - where there should be");
+            }
+            else
+            {
+                // TODO: Pick sources from parameters
+            }
             if (sourceNamesCommaSeparated == null)
                 sourceNamesCommaSeparated = "";
             sourceNamesCommaSeparated += ",";
             string[] sourceNames = sourceNamesCommaSeparated.Split(',').Distinct().ToArray();
             
-            if(objectFieldID != null && actionName.StartsWith("cmd") == false && actionName != "Save" && actionName.Contains(",") == false)
+            if(actionName.StartsWith("cmd") == false && actionName != "Save" && actionName.Contains(",") == false)
             {
                 var result = PerformWebAction.Execute(new PerformWebActionParameters
                                                           {

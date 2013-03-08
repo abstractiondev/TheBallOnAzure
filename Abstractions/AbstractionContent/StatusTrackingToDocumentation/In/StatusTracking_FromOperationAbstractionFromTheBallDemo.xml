@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <StatusTrackingAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/StatusTracking_v1_0.xsd">
-  <StatusItems scopeName="TheBall.DEMO">
+  <StatusItems scopeName="TheBall.Demo">
     <StatusItem name="CreateHelloWorld_HelloText" displayName="VariableType: HelloText" description="Hello Text">
       <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>
@@ -13,6 +13,15 @@
     <StatusItem name="CreateHelloWorld_StoreObject" displayName="MethodExecuteType: StoreObject" description="Store object">
       <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
     </StatusItem>
+    <StatusItem name="DeleteHelloWorld_ID" displayName="VariableType: ID" description="Hello World ID">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="DeleteHelloWorld_ObjectToDelete" displayName="TargetDefinitionType: ObjectToDelete" description="Get deleted object">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
+    <StatusItem name="DeleteHelloWorld_DeleteObject" displayName="MethodExecuteType: DeleteObject" description="Delete Object">
+      <StatusValue trafficLightIndicator="yellow" indicatorDisplayText="Being implemented" indicatorValue="1" />
+    </StatusItem>
   </StatusItems>
   <Groups>
     <Group name="CreateHelloWorld">
@@ -20,6 +29,11 @@
       <ItemRef itemName="CreateHelloWorld_CreatedObject" />
       <ItemRef itemName="CreateHelloWorld_SetHelloWorldText" />
       <ItemRef itemName="CreateHelloWorld_StoreObject" />
+    </Group>
+    <Group name="DeleteHelloWorld">
+      <ItemRef itemName="DeleteHelloWorld_ID" />
+      <ItemRef itemName="DeleteHelloWorld_ObjectToDelete" />
+      <ItemRef itemName="DeleteHelloWorld_DeleteObject" />
     </Group>
   </Groups>
 </StatusTrackingAbstraction>

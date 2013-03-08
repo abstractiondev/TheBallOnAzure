@@ -2,6 +2,7 @@
 using System.Collections.Specialized;
 using TheBall;
 using TheBall.CORE;
+using TheBall.Demo;
 
 namespace AaltoGlobalImpact.OIP
 {
@@ -26,9 +27,25 @@ namespace AaltoGlobalImpact.OIP
                 case "UnlinkEmailAddress":
                     return CallUnlinkEmailAddress(targetObjectID, owner,
                                                   informationSources.GetDefaultSource(typeof (AccountContainer).FullName));
+                case "CreateHelloWorld":
+                    return CallCreateHelloWorld(owner, helloText: formSubmitContent["tHelloText"]);
+                case "DeleteHelloWorld":
+                    return CallDeleteHelloWorld(owner, helloWorldId: formSubmitContent["HelloWorldID"]);
                 default:
                     throw new NotImplementedException("Operation mapping for command not implemented: " + commandName);
             }
+        }
+
+        private static bool CallDeleteHelloWorld(IContainerOwner owner, string helloWorldId)
+        {
+            DeleteHelloWorld.Execute(new DeleteHelloWorldParameters() {ID = helloWorldId});
+            return false;
+        }
+
+        private static bool CallCreateHelloWorld(IContainerOwner owner, string helloText)
+        {
+            CreateHelloWorld.Execute(new CreateHelloWorldParameters() {HelloText = helloText});
+            return false;
         }
 
         private static bool CallDeleteActivity(string targetObjectID, IContainerOwner owner)

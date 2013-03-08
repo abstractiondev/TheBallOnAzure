@@ -26,6 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{83F068
 	ProjectSection(SolutionItems) = preProject
 		Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\OIPBallInstance.xml = Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\OIPBallInstance.xml
 		Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallCore.xml = Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallCore.xml
+		Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallDemo.xml = Abstractions\AbstractionContent\TheBallCore\In\Content_v1_0\TheBallDemo.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outputs", "Outputs", "{A698BD5A-DB68-4940-A526-448807CEE96F}"

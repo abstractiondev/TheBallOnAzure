@@ -1,0 +1,51 @@
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+    <script src="../js/dust-full-1.1.1.js"></script>
+    <script src="../js/xml2json.js"></script>
+</head>
+<body>
+<section id="gridSystem">
+    <!-- container -->
+    <div id="primary">
+        <script type="text/javascript">
+
+            $(function () {
+                $.get("../../TheBall.Demo/HelloWorldCollection/MasterCollection", function (responseXml) {
+                //$.get("default-landing-page.html", function (responseXml) {
+                    dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+                    var json = xml2json(dom, "  ");
+                    //alert(json);
+                    var myObj = jQuery.parseJSON(json);
+
+                    var dynamicaddtempComp = dust.compile("Dynamic Template \"{HelloText}\" ", "dynamicaddtemp");
+                    dust.loadSource(dynamicaddtempComp);
+                    $.get("helloworld-xml-template1.html", function (responseTemplate) {
+                        var helloCompiled = dust.compile(responseTemplate, "hellodemo");
+                        dust.loadSource(helloCompiled);
+                        console.log("About demo begin");
+                        dust.render("hellodemo", myObj, function (err, out) {
+                            $("#ReplaceMyInner").html(out);
+                        });
+                        console.log("About demo out");
+                    });
+                });
+            });
+        </script>
+        <div id="ReplaceMyInner">
+            Loading...
+        </div>
+        <form method="POST">
+            <input type="hidden" name="RootSourceAction" value="CreateHelloWorld" />
+            <label for="tHelloText">Enter Hello Text</label>
+            <input type="text" name="tHelloText" id="tHelloText"/>
+            <input type="submit" value="Create Hello World">
+        </form>
+    </div>
+</section>
+
+
+</body>
+
+</html>

@@ -226,12 +226,16 @@ div.WordSection1
 
 		
 		<div style='border:none;border-bottom:solid #4F81BD 1.0pt;padding:0cm 0cm 4.0pt 0cm'>
-<p class="MsoTitle">Status Tracking Document (TheBall.DEMO)</p>
+<p class="MsoTitle">Status Tracking Document (TheBall.Demo)</p>
 </div>
 		<h1>Summary</h1>
 		<h2>CreateHelloWorld (0 %)</h2>
 		<p>		<div class="MsoNormal" >
 		Being implemented 4
+		</div>
+		</p><h2>DeleteHelloWorld (0 %)</h2>
+		<p>		<div class="MsoNormal" >
+		Being implemented 3
 		</div>
 		</p><h1>CreateHelloWorld (0 %)</h1>
 		<p><table border="1">
@@ -301,6 +305,61 @@ div.WordSection1
 				<td>
 				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Store object
+		</div>
+				</td>
+				</tr>
+		</table>
+		</p><h1>DeleteHelloWorld (0 %)</h1>
+		<p><table border="1">
+				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		VariableType: ID
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Hello World ID
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		TargetDefinitionType: ObjectToDelete
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Get deleted object
+		</div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		MethodExecuteType: DeleteObject
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
+		</div>
+				</td>
+				<td>
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Delete Object
 		</div>
 				</td>
 				</tr>
