@@ -6,6 +6,10 @@ The Ball (on Windows Azure) Demo (complete)
 To clone, build and deploy:
 NOTE! You need Git Extensions set up; Visual Studio 2012 Update 1 Git CTP does not support submodules.
 
+NOTE! The requirements are incomplete, in addition to most obvious Azure SDK (1.8):
+- Amazon Web Services (AWS) SDK is needed for email services
+- T4 Toolbox is likely also needed 
+
 On command line to get the full source:
 git clone git://github.com/abstractiondev/TheBallOnAzure
 cd TheBallOnAzure
