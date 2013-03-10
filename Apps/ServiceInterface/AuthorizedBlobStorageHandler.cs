@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
@@ -199,67 +200,31 @@ namespace WebInterface
             HttpRequest request = context.Request;
             var form = request.Unvalidated().Form;
 
-            string sourceNamesCommaSeparated = form["RootSourceName"];
             bool isCancelButton = form["btnCancel"] != null;
             if (isCancelButton)
                 return;
             string actionName = form["RootSourceAction"];
-            string objectFieldID = form["ObjectFieldID"];
-
-            CloudBlob webPageBlob = StorageSupport.CurrActiveContainer.GetBlob(contentPath, containerOwner);
-            bool isRenderedPage = webPageBlob.GetBlobInformationObjectType() ==
-                                  StorageSupport.InformationType_RenderedWebPage;
-            InformationSourceCollection sources = null;
-            if (isRenderedPage)
-            {
-                sources = webPageBlob.GetBlobInformationSources();
-                if (sources == null)
-                    throw new InvalidDataException(
-                        "Postback to page with no information sources defined - where there should be");
-            }
-            else
-            {
-                // TODO: Pick sources from parameters
-            }
-            if (sourceNamesCommaSeparated == null)
-                sourceNamesCommaSeparated = "";
-            sourceNamesCommaSeparated += ",";
-            string[] sourceNames = sourceNamesCommaSeparated.Split(',').Distinct().ToArray();
-            
-            if(actionName.StartsWith("cmd") == false && actionName != "Save" && actionName.Contains(",") == false)
+            if(actionName != "Save")
             {
                 var result = PerformWebAction.Execute(new PerformWebActionParameters
                                                           {
                                                               CommandName = actionName,
-                                                              FormSourceNames = sourceNames,
                                                               FormSubmitContent = form,
-                                                              InformationSources = sources,
                                                               Owner = containerOwner,
-                                                              TargetObjectID = objectFieldID
                                                           });
-                if(result.RenderPageAfterOperation)
-                    RenderWebSupport.RefreshContent(webPageBlob);
                 return;
             }
 
-            string inContextEditFieldID = form["InContextEditFieldID"];
-
-            if (inContextEditFieldID != null)
+            string submittedObjectList = form["BoundObject"];
+            string[] submittedObjects = submittedObjectList.Split(',');
+            foreach (string relativeLocation in submittedObjects)
             {
-                string objectFieldValue = form["Text_Short"];
-                if (objectFieldValue == null)
-                    objectFieldValue = form["Text_Long"];
-                form = new NameValueCollection();
-                form.Set(inContextEditFieldID, objectFieldValue);
-            }
-
-            InformationSource[] sourceArray =
-                sources.CollectionContent.Where(
-                    src => src.IsDynamic || (src.IsInformationObjectSource && sourceNames.Contains(src.SourceName)) ).ToArray();
-            foreach (InformationSource source in sourceArray)
-            {
-                string oldETag = source.SourceETag;
-                IInformationObject rootObject = source.RetrieveInformationObject();
+                // TODO: ETagged envelope verification here
+                if(containerOwner.IsMyEditableContent(relativeLocation) == false)
+                    throw new SecurityException("Content not allowed to edit in this security context: " + relativeLocation);
+                CloudBlob blob = StorageSupport.CurrActiveContainer.GetBlob(relativeLocation);
+                string objectType = blob.GetBlobInformationObjectType();
+                IInformationObject rootObject = StorageSupport.RetrieveInformation(relativeLocation, objectType);
                 /* Temporarily removed all the version checks - last save wins! 
                 if (oldETag != rootObject.ETag)
                 {
@@ -269,13 +234,9 @@ namespace WebInterface
                  * */
                 // TODO: Proprely validate against only the object under the editing was changed (or its tree below)
                 rootObject.SetValuesToObjects(form);
-                IAddOperationProvider addOperationProvider = rootObject as IAddOperationProvider;
-                bool skipNormalStoreAfterAdd = false;
-                if(addOperationProvider != null)
-                {
-                    skipNormalStoreAfterAdd = addOperationProvider.PerformAddOperation(actionName, sources, contentPath, request.Files);
-                }
-                if(skipNormalStoreAfterAdd == false) {
+
+                // TODO: Media support through operation
+                /*
                     // If not add operation, set media content to stored object
                     foreach (string contentID in request.Files.AllKeys)
                     {
@@ -284,15 +245,9 @@ namespace WebInterface
                             continue;
                         rootObject.SetMediaContent(containerOwner, contentID, postedFile);
                     }
-                    rootObject.StoreInformationMasterFirst(containerOwner, false);
-                }
+                 * */
+                rootObject.StoreInformationMasterFirst(containerOwner, false);
             }
-            RenderWebSupport.RefreshContent(webPageBlob);
-            // Temporary live to pub sync below, to be removed
-            //SyncTemplatesToSite(StorageSupport.CurrActiveContainer.Name,
-            //    String.Format("grp/f8e1d8c6-0000-467e-b487-74be4ad099cd/{0}/", "livesite"),
-            //    StorageSupport.CurrAnonPublicContainer.Name,
-            //                    String.Format("grp/default/{0}/", "livepubsite"), true);
 
         }
 

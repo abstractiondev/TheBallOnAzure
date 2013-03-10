@@ -157,6 +157,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBSystem), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -531,6 +532,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBRLoginRoot), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -936,6 +938,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBRAccountRoot), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -1341,6 +1344,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBRGroupRoot), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -1746,6 +1750,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBRLoginGroupRoot), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -2120,6 +2125,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBREmailRoot), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -2525,6 +2531,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBAccount), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -3040,6 +3047,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBAccountCollaborationGroup), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -3426,6 +3434,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBAccountCollaborationGroupCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -3908,6 +3917,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBLoginInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -4270,6 +4280,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBLoginInfoCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -4752,6 +4763,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBEmail), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -5124,6 +5136,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBEmailCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -5606,6 +5619,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBCollaboratorRole), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -6035,6 +6049,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBCollaboratorRoleCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -6517,6 +6532,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBCollaboratingGroup), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -6934,6 +6950,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBEmailValidation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -7349,6 +7366,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBGroupJoinConfirmation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -7711,6 +7729,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBRegisterContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -8183,6 +8202,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(LoginProvider), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -8593,6 +8613,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(LoginProviderCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -9075,6 +9096,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ContactOipContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -9437,6 +9459,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(TBPRegisterEmail), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -9799,6 +9822,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(JavaScriptContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -10166,6 +10190,7 @@ JavaScriptContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(JavascriptContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -10533,6 +10558,7 @@ JavascriptContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(FooterContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -10900,6 +10926,7 @@ FooterContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(NavigationContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -11262,6 +11289,7 @@ FooterContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountSummary), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -11777,6 +11805,7 @@ FooterContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -12347,6 +12376,7 @@ FooterContainer.HtmlContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountIndex), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -12784,6 +12814,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountModule), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -13355,6 +13386,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ImageGroupContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -13761,6 +13793,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(LocationContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -14167,6 +14200,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddressAndLocationCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -14429,6 +14463,7 @@ AccountIndex.Summary
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(AddressAndLocation));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (AddressAndLocation) obj));
             
@@ -14659,6 +14694,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddressAndLocation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -15160,6 +15196,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(StreetAddress), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -15558,6 +15595,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountContent), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -15920,6 +15958,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountProfile), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -16390,6 +16429,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountSecurity), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -16850,6 +16890,7 @@ AccountIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AccountRoles), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -17327,6 +17368,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(PersonalInfoVisibility), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -17689,6 +17731,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupedInformationCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -18171,6 +18214,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupedInformation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -18588,6 +18632,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ReferenceToInformation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -18962,6 +19007,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ReferenceCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -19433,6 +19479,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(BlogContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -20003,6 +20050,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(RecentBlogSummary), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -20464,6 +20512,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -21312,6 +21361,7 @@ AccountRoles.OrganizationsImPartOf
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapMarker), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -21794,6 +21844,7 @@ MapMarker.PopupContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapMarkerCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -22276,6 +22327,7 @@ MapMarker.PopupContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CalendarContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -22846,6 +22898,7 @@ MapMarker.PopupContent
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AboutContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -23389,6 +23442,7 @@ AboutContainer.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(OBSAccountContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -23959,6 +24013,7 @@ AboutContainer.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ProjectContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -24529,6 +24584,7 @@ AboutContainer.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CourseContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -25099,6 +25155,7 @@ AboutContainer.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ContainerHeader), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -25473,6 +25530,7 @@ AboutContainer.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ActivitySummaryContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -26061,6 +26119,7 @@ ActivitySummaryContainer.SummaryBody
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ActivityIndex), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -26498,6 +26557,7 @@ ActivityIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ActivityContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -27013,6 +27073,7 @@ ActivityIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ActivityCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -27280,6 +27341,7 @@ ActivityIndex.Summary
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(Activity));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (Activity) obj));
             
@@ -27516,6 +27578,7 @@ ActivityIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Activity), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -28313,6 +28376,7 @@ Activity.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ModeratorCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -28795,6 +28859,7 @@ Activity.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Moderator), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -29169,6 +29234,7 @@ Activity.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CollaboratorCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -29651,6 +29717,7 @@ Activity.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Collaborator), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -30061,6 +30128,7 @@ Activity.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupSummaryContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -30648,6 +30716,7 @@ GroupSummaryContainer.SummaryBody
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -31441,6 +31510,7 @@ GroupSummaryContainer.SummaryBody
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupIndex), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -31878,6 +31948,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddAddressAndLocationInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -32240,6 +32311,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddImageInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -32602,6 +32674,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddImageGroupInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -32964,6 +33037,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddEmailAddressInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -33326,6 +33400,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CreateGroupInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -33688,6 +33763,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddActivityInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -34050,6 +34126,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddBlogPostInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -34412,6 +34489,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AddCategoryInfo), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -34774,6 +34852,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(GroupCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -35256,6 +35335,7 @@ GroupIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Group), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -35886,6 +35966,7 @@ Group.OrganizationsAndGroupsLinkedToUs
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Introduction), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -36265,6 +36346,7 @@ Introduction.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(BlogCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -36532,6 +36614,7 @@ Introduction.Body
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(Blog));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (Blog) obj));
             
@@ -36768,6 +36851,7 @@ Introduction.Body
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Blog), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -37695,6 +37779,7 @@ Blog.Excerpt
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(BlogIndexGroup), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -38463,6 +38548,7 @@ BlogIndexGroup.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CalendarIndex), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -38900,6 +38986,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Filter), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -39262,6 +39349,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Calendar), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -39624,6 +39712,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CalendarCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -40106,6 +40195,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Map), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -40468,6 +40558,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -40950,6 +41041,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapIndexCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -41520,6 +41612,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapResult), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -41925,6 +42018,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapResultCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -42407,6 +42501,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MapResultsCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -42922,6 +43017,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Video), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -43351,6 +43447,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Image), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -43821,6 +43918,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(MediaContent), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -44141,6 +44239,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ImageGroupCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -44403,6 +44502,7 @@ CalendarIndex.Summary
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(ImageGroup));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (ImageGroup) obj));
             
@@ -44633,6 +44733,7 @@ CalendarIndex.Summary
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ImageGroup), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -45149,6 +45250,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(VideoGroup), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -45578,6 +45680,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ImagesCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -46049,6 +46152,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(VideoCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -46531,6 +46635,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Tooltip), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -46893,6 +46998,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SocialPanelCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -47375,6 +47481,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SocialPanel), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -47780,6 +47887,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Longitude), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -48142,6 +48250,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Latitude), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -48504,6 +48613,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Location), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -48976,6 +49086,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(LocationCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -49458,6 +49569,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Date), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -49848,6 +49960,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Sex), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -50210,6 +50323,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(OBSAddress), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -50680,6 +50794,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Identity), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -51176,6 +51291,7 @@ ImageGroup.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(ImageVideoSoundVectorRaw), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -51571,6 +51687,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CategoryContainer), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -51977,6 +52094,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Category), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -52380,6 +52498,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(CategoryCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -52642,6 +52761,7 @@ ImageVideoSoundVectorRaw.Vector
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(Category));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (Category) obj));
             
@@ -52872,6 +52992,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriptionCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -53354,6 +53475,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Subscription), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -53774,6 +53896,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(QueueEnvelope), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -54311,6 +54434,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(OperationRequestCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -54793,6 +54917,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(OperationRequest), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -55473,6 +55598,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriptionChainRequestMessage), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -55835,6 +55961,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriptionChainRequestContent), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -56290,6 +56417,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriptionTarget), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -56652,6 +56780,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriptionTargetCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -57134,6 +57263,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(DeleteEntireOwnerOperation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -57508,6 +57638,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(DeleteOwnerContentOperation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -57882,6 +58013,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SystemError), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -58364,6 +58496,7 @@ ImageVideoSoundVectorRaw.Vector
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SystemErrorItem), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -58743,6 +58876,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SystemErrorItemCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -59225,6 +59359,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(InformationSource), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -59667,6 +59802,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(InformationSourceCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -60149,6 +60285,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(RefreshDefaultViewsOperation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -60523,6 +60660,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(UpdateWebContentOperation), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -60986,6 +61124,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(UpdateWebContentHandlerItem), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -61360,6 +61499,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(UpdateWebContentHandlerCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -61842,6 +61982,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(SubscriberInput), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -62240,6 +62381,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(Monitor), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -62670,6 +62812,7 @@ SystemErrorItem.LongDescription
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(IconTitleDescription), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -63056,6 +63199,7 @@ IconTitleDescription.Description
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(AboutAGIApplications), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();

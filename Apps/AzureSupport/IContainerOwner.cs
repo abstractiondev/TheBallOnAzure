@@ -12,6 +12,11 @@ namespace TheBall.CORE
 
     public static partial class ExtIContainerOwner
     {
+        public static bool IsMyEditableContent(this IContainerOwner owner, string relativeLocation)
+        {
+            return relativeLocation.StartsWith(owner.ContainerName + "/" + owner.LocationPrefix + "/");
+        }
+
         public static bool IsAccountContainer(this IContainerOwner owner)
         {
             return owner.ContainerName == "acc";

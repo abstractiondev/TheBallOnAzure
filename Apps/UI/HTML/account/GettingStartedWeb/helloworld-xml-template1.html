@@ -9,10 +9,12 @@
 </table>
     {#HelloWorldObject}
     <form method="post">
-        <input type="hidden" name="RootSourceAction" value="DeleteHelloWorld" />
         <input type="hidden" name="HelloWorldID" value="{ID}" />
+        <input type="hidden" name="BoundObject" value="{RelativeLocation}" />
         {>dynamicaddtemp /}
-        <input type="submit" value="Delete Hello World" />
+        <button type="submit" name="RootSourceAction" value="DeleteHelloWorld">Delete</button>
+        <input type="text" name="{ID}_HelloText" id="{ID}_HelloText" value="{HelloText}"/>
+        <button type="submit" name="RootSourceAction" value="Save">Save</button>
     </form>
     {/HelloWorldObject}
 {/CollectionContent}

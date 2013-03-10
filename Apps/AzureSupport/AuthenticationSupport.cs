@@ -9,6 +9,13 @@ namespace TheBall
     {
         private const string AuthCookieName = "TheBall_AUTH";
         private const int TimeoutSeconds = 3600;
+        public static string DefaultUser = null;
+
+        static AuthenticationSupport()
+        {
+            //DefaultUser = "localdeveloperauth";
+        }
+
         public static void SetAuthenticationCookie(HttpResponse response, string validUserName)
         {
             WebSupport.InitializeContextStorage(HttpContext.Current.Request);
@@ -17,6 +24,7 @@ namespace TheBall
                 response.Cookies.Remove(AuthCookieName);
             HttpCookie cookie = new HttpCookie(AuthCookieName, authString);
             cookie.HttpOnly = false;
+            cookie.Expires = DateTime.Now.AddSeconds(TimeoutSeconds);
             HttpContext.Current.Response.Cookies.Add(cookie);
         }
 
@@ -38,6 +46,10 @@ namespace TheBall
                 {
                     ClearAuthenticationCookie(context.Response);
                 }
+            } else if (String.IsNullOrEmpty(DefaultUser) == false)
+            {
+                SetAuthenticationCookie(context.Response, DefaultUser);
+                context.User = new GenericPrincipal(new GenericIdentity(DefaultUser, "theball"), new string[0]);
             }
             
         }

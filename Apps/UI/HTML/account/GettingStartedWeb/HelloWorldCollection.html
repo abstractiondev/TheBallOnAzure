@@ -14,7 +14,7 @@
             $(function () {
                 $.get("../../TheBall.Demo/HelloWorldCollection/MasterCollection", function (responseXml) {
                 //$.get("default-landing-page.html", function (responseXml) {
-                    dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+                    var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
                     var json = xml2json(dom, "  ");
                     //alert(json);
                     var myObj = jQuery.parseJSON(json);

@@ -46,7 +46,9 @@
     <Content Include="absbuilder\In\Content_v1_0\AbstractionBuilderContent_v1_0.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="TheBallCore\In\Content_v1_0\TheBallDemo.xml" />
+    <Content Include="TheBallCore\In\Content_v1_0\TheBallDemo.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="TheBallCore\In\Content_v1_0\OIPBallInstance.xml" />
     <Content Include="TheBallCore\In\Content_v1_0\TheBallCore.xml" />
   </ItemGroup>

@@ -81,6 +81,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(HelloWorldObject), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -443,6 +444,7 @@ using TheBall.CORE;
 						if (blob.GetBlobInformationType() != StorageSupport.InformationType_InformationObjectValue)
 							continue;
 						IInformationObject informationObject = StorageSupport.RetrieveInformation(blob.Name, typeof(HelloWorldCollection), null, owner);
+					    informationObject.MasterETag = informationObject.ETag;
 						informationObjects.Add(informationObject);
 					}
 					return informationObjects.ToArray();
@@ -710,6 +712,7 @@ using TheBall.CORE;
 					string itemDirectory = GetItemDirectory();
 					IInformationObject[] informationObjects = StorageSupport.RetrieveInformationObjects(itemDirectory,
 																								 typeof(HelloWorldObject));
+                    Array.ForEach(informationObjects, io => io.MasterETag = io.ETag);
 					CollectionContent.Clear();
 					CollectionContent.AddRange(informationObjects.Select(obj => (HelloWorldObject) obj));
             
