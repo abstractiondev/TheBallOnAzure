@@ -1,16 +1,17 @@
 <div>
 {#HelloWorldCollection}{#CollectionContent}
-<table border="1"><tr><th>ID</th><th>ObjectName</th><th>HelloText</th></tr>
+<table border="1"><tr><th>ID</th><th>ObjectName</th><th>MasterETag</th><th>HelloText</th></tr>
 {#HelloWorldObject}
 <tr>
-    <td>{ID}</td><td>{Name}</td><td>{HelloText}</td>
+    <td>{ID}</td><td>{Name}</td><td>{MasterETag}</td><td>{HelloText}</td>
 </tr>
 {/HelloWorldObject}
 </table>
     {#HelloWorldObject}
     <form method="post">
+        <div>Updated 19:35</div>
         <input type="hidden" name="HelloWorldID" value="{ID}" />
-        <input type="hidden" name="BoundObject" value="{RelativeLocation}" />
+        <input type="hidden" name="BoundObject" value="{RelativeLocation}:{MasterETag}" />
         {>dynamicaddtemp /}
         <button type="submit" name="RootSourceAction" value="DeleteHelloWorld">Delete</button>
         <input type="text" name="{ID}_HelloText" id="{ID}_HelloText" value="{HelloText}"/>

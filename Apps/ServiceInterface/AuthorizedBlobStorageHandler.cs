@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Data;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Security;
 using System.Web;
 using System.Web.Helpers;
@@ -217,36 +219,55 @@ namespace WebInterface
 
             string submittedObjectList = form["BoundObject"];
             string[] submittedObjects = submittedObjectList.Split(',');
-            foreach (string relativeLocation in submittedObjects)
+            foreach (string submittedObject in submittedObjects)
             {
-                // TODO: ETagged envelope verification here
-                if(containerOwner.IsMyEditableContent(relativeLocation) == false)
-                    throw new SecurityException("Content not allowed to edit in this security context: " + relativeLocation);
-                CloudBlob blob = StorageSupport.CurrActiveContainer.GetBlob(relativeLocation);
-                string objectType = blob.GetBlobInformationObjectType();
-                IInformationObject rootObject = StorageSupport.RetrieveInformation(relativeLocation, objectType);
-                /* Temporarily removed all the version checks - last save wins! 
-                if (oldETag != rootObject.ETag)
+                string[] objectWithETag = submittedObject.Split(':');
+                string relativeLocation = objectWithETag[0];
+                string eTag = null;
+                if (objectWithETag.Length == 2)
+                    eTag = objectWithETag[1];
+                try
                 {
-                    RenderWebSupport.RefreshContent(webPageBlob);
-                    throw new InvalidDataException("Information under editing was modified during display and save");
-                }
-                 * */
-                // TODO: Proprely validate against only the object under the editing was changed (or its tree below)
-                rootObject.SetValuesToObjects(form);
-
-                // TODO: Media support through operation
-                /*
-                    // If not add operation, set media content to stored object
-                    foreach (string contentID in request.Files.AllKeys)
+                    if (containerOwner.IsMyEditableContent(relativeLocation) == false)
+                        throw new SecurityException("Content not allowed to edit in this security context: " +
+                                                    relativeLocation);
+                    CloudBlob blob = StorageSupport.CurrActiveContainer.GetBlob(relativeLocation);
+                    string objectType = blob.GetBlobInformationObjectType();
+                    IInformationObject rootObject = StorageSupport.RetrieveInformation(relativeLocation, objectType,
+                                                                                       eTag: eTag);
+                    /* Temporarily removed all the version checks - last save wins! 
+                    if (oldETag != rootObject.ETag)
                     {
-                        HttpPostedFile postedFile = request.Files[contentID];
-                        if (String.IsNullOrWhiteSpace(postedFile.FileName))
-                            continue;
-                        rootObject.SetMediaContent(containerOwner, contentID, postedFile);
+                        RenderWebSupport.RefreshContent(webPageBlob);
+                        throw new InvalidDataException("Information under editing was modified during display and save");
                     }
-                 * */
-                rootObject.StoreInformationMasterFirst(containerOwner, false);
+                     * */
+                    // TODO: Proprely validate against only the object under the editing was changed (or its tree below)
+                    rootObject.SetValuesToObjects(form);
+
+                    // TODO: Media support through operation
+                    /*
+                        // If not add operation, set media content to stored object
+                        foreach (string contentID in request.Files.AllKeys)
+                        {
+                            HttpPostedFile postedFile = request.Files[contentID];
+                            if (String.IsNullOrWhiteSpace(postedFile.FileName))
+                                continue;
+                            rootObject.SetMediaContent(containerOwner, contentID, postedFile);
+                        }
+                     * */
+                    rootObject.StoreInformationMasterFirst(containerOwner, false);
+                }
+                catch (StorageException stEx)
+                {
+                    if (stEx.StatusCode == HttpStatusCode.PreconditionFailed)
+                    {
+                        throw new DBConcurrencyException(
+                            string.Format("Optimistic Concurrency Failed (Object: {0} ETag: {1})", relativeLocation,
+                                          eTag));
+                    }
+                    throw;
+                }
             }
 
         }
