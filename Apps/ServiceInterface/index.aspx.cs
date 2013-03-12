@@ -12,6 +12,7 @@ namespace WebInterface
         protected void Page_Load(object sender, EventArgs e)
         {
             string hostName = Request.Url.DnsSafeHost;
+            /*
             if (hostName.StartsWith("oip.msunit.citrus.fi"))
                 Response.Redirect("/public/grp/default/publicsite/oip-public/oip-layout-landing.phtml", true);
             else if (hostName.StartsWith("publicoip.") || hostName.StartsWith("demopublicoip."))
@@ -20,6 +21,9 @@ namespace WebInterface
                 Response.Redirect("/about/oip-public/oip-layout-register.phtml");
             else if (hostName.StartsWith("www.") || hostName.StartsWith("demowww"))
                 Response.Redirect("/www-public/oip-layout-landing.phtml");
+             * */
+            // TODO: If the Ball is going to serve multiple roots, host name lookup here
+            Response.Redirect("auth/account/website/GettingStartedWeb/default-landing-page.html", true);
         }
     }
 }
