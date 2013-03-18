@@ -21,15 +21,21 @@
 
                     var dynamicaddtempComp = dust.compile("Dynamic Template \"{HelloText}\" ", "dynamicaddtemp");
                     dust.loadSource(dynamicaddtempComp);
-                    $.get("helloworld-xml-template1.html", function (responseTemplate) {
-                        var helloCompiled = dust.compile(responseTemplate, "hellodemo");
-                        dust.loadSource(helloCompiled);
-                        console.log("About demo begin");
-                        dust.render("hellodemo", myObj, function (err, out) {
-                            $("#ReplaceMyInner").html(out);
-                        });
-                        console.log("About demo out");
+                    $.ajax({
+                        url: "helloworld-xml-template1.html",
+                        //data: 'foo',
+                        cache: false,
+                        success: function (responseTemplate) {
+                            var helloCompiled = dust.compile(responseTemplate, "hellodemo");
+                            dust.loadSource(helloCompiled);
+                            console.log("About demo begin");
+                            dust.render("hellodemo", myObj, function (err, out) {
+                                $("#ReplaceMyInner").html(out);
+                            });
+                            console.log("About demo out");
+                        }
                     });
+                    
                 });
             });
         </script>
@@ -38,7 +44,7 @@
         </div>
         <form method="POST">
             <input type="hidden" name="RootSourceAction" value="CreateHelloWorld" />
-            <label for="tHelloText">Enter Hello Text</label>
+            <label for="tHelloText">Enter Hello Text:</label>
             <input type="text" name="tHelloText" id="tHelloText"/>
             <input type="submit" value="Create Hello World">
         </form>
