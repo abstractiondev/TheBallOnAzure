@@ -806,7 +806,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 

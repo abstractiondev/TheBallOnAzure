@@ -3774,7 +3774,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -4620,7 +4620,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -5476,7 +5476,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -6389,7 +6389,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -8953,7 +8953,7 @@ using TheBall.CORE;
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -14557,7 +14557,7 @@ AccountIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -18071,7 +18071,7 @@ AccountRoles.OrganizationsImPartOf
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -19342,7 +19342,7 @@ AccountRoles.OrganizationsImPartOf
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -22184,7 +22184,7 @@ MapMarker.PopupContent
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -27435,7 +27435,7 @@ ActivityIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -28716,7 +28716,7 @@ Activity.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -29574,7 +29574,7 @@ Activity.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -35192,7 +35192,7 @@ GroupIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -36708,7 +36708,7 @@ Introduction.Body
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -40052,7 +40052,7 @@ CalendarIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -40898,7 +40898,7 @@ CalendarIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -42358,7 +42358,7 @@ CalendarIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -44596,7 +44596,7 @@ CalendarIndex.Summary
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -46015,7 +46015,7 @@ ImageGroup.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -46492,7 +46492,7 @@ ImageGroup.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -47338,7 +47338,7 @@ ImageGroup.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -49426,7 +49426,7 @@ ImageGroup.Description
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -52855,7 +52855,7 @@ ImageVideoSoundVectorRaw.Vector
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -53332,7 +53332,7 @@ ImageVideoSoundVectorRaw.Vector
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -54774,7 +54774,7 @@ ImageVideoSoundVectorRaw.Vector
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -57120,7 +57120,7 @@ ImageVideoSoundVectorRaw.Vector
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -59216,7 +59216,7 @@ SystemErrorItem.LongDescription
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -60142,7 +60142,7 @@ SystemErrorItem.LongDescription
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 
@@ -61839,7 +61839,7 @@ SystemErrorItem.LongDescription
 					if (IsCollectionFiltered == false || this.OrderFilterIDList == null)
 						return CollectionContent.ToArray();
 					return
-						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).ToArray();
+						this.OrderFilterIDList.Select(id => CollectionContent.FirstOrDefault(item => item.ID == id)).Where(item => item != null).ToArray();
 				}
 
 

@@ -10,11 +10,20 @@
     <!-- container -->
     <div id="primary">
         <script type="text/javascript">
-
             $(function () {
                 $.get("../../TheBall.Demo/HelloWorldCollection/MasterCollection", function (responseXml) {
-                //$.get("default-landing-page.html", function (responseXml) {
-                    var dom = (new DOMParser()).parseFromString(responseXml, "text/xml");
+                    //$.get("default-landing-page.html", function (responseXml) {
+                    var dom;
+                    if (window.DOMParser) {
+                        parser = new DOMParser();
+                        dom = parser.parseFromString(responseXml, "text/xml");
+                    }
+                    else // Internet Explorer
+                    {
+                        dom = new ActiveXObject("Microsoft.XMLDOM");
+                        dom.async = false;
+                        dom.loadXML(responseXml);
+                    }
                     var json = xml2json(dom, "  ");
                     //alert(json);
                     var myObj = jQuery.parseJSON(json);
@@ -35,7 +44,7 @@
                             console.log("About demo out");
                         }
                     });
-                    
+
                 });
             });
         </script>
